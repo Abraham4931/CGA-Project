@@ -1,0 +1,4707 @@
+Lesson - 1: Programming for a Purpose
+
+Level - 1
+
+Refer to your activity guide to recommend one of these templates to each client based on their needs.
+
+Choose from the following activities:
+
+a) Template A
+Animated scene template.
+
+b) Template B
+Interactive item catch game template.
+
+c) Template C
+Interactive push and collect game template.
+
+d) Template D
+Interactive side-scroller game template.
+
+e) Template E
+Interactive greeting card animation template.
+
+I Choose (A)
+
+Lesson - 2: Plotting Shapes
+
+Level - 1
+
+Explore using this tool that lets you draw different colored shapes.
+
+   - Choose a color to change the color of the shapes
+   - Click on a shape EVERY TIME you want to draw a new shape
+   - Try turning on the grid by checking the box underneath the "Run" button at the bottom.
+
+Lesson - 3: Drawing in Game Lab
+
+Level - 1
+
+Drawing in Game Lab on the first level of this session we predict the code on the work space.
+
+The code - rect(100,100);
+My prediction - it creates the rectangle by default and at the position (100,100).
+
+Level - 2
+
+At this level we create the rectangle on different position.
+
+Here is the same line of code from the previous level.
+The code - rect(100,100);
+
+Change the numbers inside the block, then try running the program again.
+The code - rect(170,120);
+
+Try to place the rectangle near the bottom right of the screen.
+The code - rect(350,350);
+
+Level - 3
+
+On this level we place two rectangles exactly in the corners of the screen.
+The code - rect(0,0);
+           rect(350,0);
+
+Level - 4
+
+On this level change the color of the rectangles.
+
+Look at the code that sets the color.
+Change the color from blue to yellow.
+
+Add a new square to the image
+    - Drag out a rect() block into the code area below the fill command.
+    - The new square can go any location on the screen you like.
+    - Remember you can always turn on the grid or hover with the mouse to help find the x and y position you want.
+
+The first code - fill("blue");
+           rect(100,100);
+           rect(250,100);
+
+Change the color from blue to yellow.
+Add a new square to the image.
+
+Modified code - fill("yellow");
+           rect(100,100);
+           rect(250,100);
+           rect(350,100);
+
+Level - 5
+
+In Game Lab, it matters what order our code is in.
+New shapes are drawn on top of the ones that came before, covering up the shapes that are drawn first. 
+We can see the difference when you use more than one color in your code.
+
+Look at the code that draws the two rectangles.
+   - The first is drawn red, and the second is drawn blue.
+Change the red rectangle's color to green.
+Change the order of the code so the green rectangle appears on top.
+   - Remember we can always turn on the grid or hover with the mouse to help find the x and y position you want.
+
+The first code - fill("red");
+           rect(175,175);
+           fill("blue");
+           rect(200, 200);
+
+Change the red rectangle's color to green.
+Change the order of the code so the green rectangle appears on top.
+
+Modified code - fill("blue");
+           rect(200, 200);
+           fill("red");
+           rect(175,175);
+
+Level - 6
+
+We can use ellipse() to make a circle.
+
+Look at the code that makes the ellipse.
+Add a new ellipse of a different color.
+   - Remember we can always turn on the grid or hover with the mouse to help find the x and y position you want.
+
+The first code - fill("teal");
+        ellipse(100,100);
+
+Add a new ellipse of a different color.
+
+Modified code - fill("yellow");
+        ellipse(200, 200);
+
+Level - 7
+
+Practice
+
+Choose from the following activities:
+
+a) Debug a car
+Debug this code so that the wheels appear.
+
+b) Debug a Flower
+Move the fallen petals back to the flower.
+
+c) Debug a stoplight
+Fix the stoplight so that all colors are visible.
+
+d) Draw a Car
+Recreate the car from the last lesson using code.
+
+e) Shape of Shapes
+Make a triangle out of circles.
+
+I Choose (C).
+
+The first code - rect(175,100);
+        rect(175,150);
+        rect(175,200);
+        fill("black");
+        ellipse(200,125);
+        fill("red");
+        ellipse(200,175);
+        fill("yellow");
+        ellipse(200,225);
+        fill("green");
+
+Rearrange the code so the colors are correct.
+
+Modified code -  fill("black");
+        rect(175,100);
+        rect(175,150);
+        rect(175,200);
+        fill("red");
+        ellipse(200,125);
+        fill("yellow");
+        ellipse(200,175);
+        fill("green");
+        ellipse(200,225);
+
+Level - 8
+
+Look at the code.
+Change the code so it makes the picture on the right.
+   - You do not need to add any new blocks to the code area - you only need to rearrange some blocks and change some of the values
+
+The first code - rect(175, 175);
+        fill("orange");
+        ellipse(150,150);
+        ellipse(200,150);
+        ellipse(150,200);
+        ellipse(200,200);
+        fill("purple");
+
+Change the code so it makes the picture in the instructions.
+
+Modified code - fill("orange");
+        ellipse(150,150);
+        ellipse(200,150);
+        ellipse(150,200);
+        ellipse(200,200);
+        fill("purple");
+        rect(150, 150);
+
+Level - 9
+
+Write a program that uses rect(), ellipse(), and fill() to create a face out of shapes.
+
+Draw a face that uses at least 4 shapes and at least 2 different colors
+
+The code - fill(rgb(0, 0, 255, 0.2));
+           ellipse(150, 100);
+           ellipse(250, 100);
+           fill("red");
+           ellipse(200, 180);
+           fill(rgb(0, 255, 0, 0.5));
+           rect(100, 230);
+           rect(250, 230);
+           rect(150, 250);
+           rect(200, 250);
+
+Lesson - 4: Shapes and Parameters
+
+Level - 1
+
+The code below has familiar rect() blocks, but with additional values as part of the block.
+These additional values are called parameters - they let you customize and control the behavior of blocks.
+
+The code - fill("blue");
+        rect(100,100,100,200);
+        fill("red");
+        rect(250,100,100,150);
+
+It specifies the rectangle's parameter.
+
+Level - 2
+
+The two new parameters in the rect() block control the width and height of the rectangles.
+The toolbox has also been updated with the new block that can help you remember what each parameter stands for: rect(x, y, w, h)
+
+We can adjust these new parameters so the red rectangle is longer than the blue rectangle (like the picture on the right).
+
+The first code - fill("blue");
+        rect(100,100,100,200);
+        fill("red");
+        rect(250,100,100,150);
+
+Change the numbers in the second rect() to make red rectangle longer than the blue one.
+
+Modified code - fill("blue");
+        rect(100,100,100,150);
+        fill("red");
+        rect(250,100,100,200);
+
+Level - 3
+
+The ellipse() block has also been updated to use these new parameters: ellipse(x, y, w, h)
+
+Use these new parameters to create two ellipses of different sizes.
+
+Add an orange ellipse to the screen that is taller than the green one
+   - Use an ellipse(x, y, w, h) block to set the width and height of the ellipse
+   - Use a fill() block to make the ellipse orange
+Rearrange the blocks so the orange ellipse is behind the green one.
+
+The first code - fill("green");
+        ellipse(200,200,200,150);
+
+Add an orange ellipse to the screen that is taller than the green one.
+Rearrange the blocks so the orange ellipse is behind the green one.
+
+Modified code - fill("orange");
+        ellipse(200, 200, 250, 380);
+        fill("green");
+        ellipse(200,200,200,150);
+
+Level - 4
+
+Sometimes you'll want to fill the entire screen with a color. For that, you can use background().
+It covers everything on the screen with the color you choose.
+
+Run the code to see background() work.
+Change the background from yellow to orange.
+
+The first code - fill("purple");
+        rect(50,50, 100,100);
+        background("yellow");
+        fill("blue");
+        rect(250,250, 100, 100);
+
+Challenge: a purple square is covered up by the background. Can you change the order of the code so you can see both the purple and blue squares?
+
+Modified code - background("orange");
+        fill("purple");
+        rect(50,50, 100,100);
+        fill("blue");
+        rect(250,250, 100, 100);
+
+Level - 5
+
+background() will draw on top of everything already in your drawing, so it's important to think about the order of your code.
+
+Make a black background behind the green circle.
+   - Drag out the background() block to add a background to your code
+   - Make sure to order your code correctly!
+
+The first code - fill("green");
+        ellipse(200,200,200,200);
+
+Modified code - background("black");
+        fill("green");
+        ellipse(200,200,200,200);
+
+Level - 6
+
+This program uses the four parameter version of rect() and ellipse() to draw a simple scene.
+
+Debug this program and correct the error so that the grass extends across the entire bottom.
+   - Hint: You only have to change one number! Which parameter makes your rectangle (the grass) wider?
+Run Your Code! Verify that the grass extends all the way across the bottom of the screen
+
+The first code - background("skyblue");
+        fill("yellow");
+        ellipse(350,50,50,50);
+        fill("green");
+        rect(0,300,200,100);
+
+Modified code - background("skyblue");
+        fill("yellow");
+        ellipse(350,50,50,50);
+        fill("green");
+        rect(0,320,400,80);
+
+Level - 7
+
+Practice with Parameters
+
+Choose from the following activities:
+
+a) Debug: Hidden Shapes
+Reveal the picture under the red circle.
+
+b) Debug: Missing Shapes
+The picture isn't appearing, what's wrong with the code?
+
+c) Finish the Scene
+Be creative and finish the drawing however you want!
+
+I Choose (B)
+
+The first code - fill("black");
+        rect(500, 50, 300, 300);
+        fill("white");
+        rect(500, 50, 250, 250);
+        fill("black");
+        rect(500, 50, 200, 200);
+        fill("white");
+        rect(500, 50, 150, 150);
+        fill("black");
+        rect(500, 50, 100, 100);
+        fill("white");
+        rect(500, 50, 50, 50);
+
+Modified code - fill("black");
+        rect(20, 50, 300, 300);
+        fill("white");
+        rect(30, 60, 250, 250);
+        fill("black");
+        rect(40, 70, 200, 200);
+        fill("white");
+        rect(50, 80, 150, 150);
+        fill("black");
+        rect(60, 90, 100, 100);
+        fill("white");
+        rect(70, 100, 50, 50);
+
+Level - 8
+
+Now that the grass is working, let's add a cloud to the sky. Unfortunately, it looks a little funny right now.
+
+Debug this program to make the cloud wider than it is tall, like in the image.
+Hint: You'll need to change two parameters. Which ones set your cloud's width and height?
+
+The first code - background("skyblue");
+        fill("yellow");
+        ellipse(300,50,50,50);
+        fill("green");
+        rect(0,300,400,100);
+        fill("white");
+        ellipse(150,100,100,200);
+
+Modified code - background("skyblue");
+        fill("yellow");
+        ellipse(300,50,50,50);
+        fill("green");
+        rect(0,300,400,100);
+        fill("white");
+        ellipse(150,100,200,100);
+
+Level - 9
+
+Check out one or more of these extra blocks that we can use to make your pictures more interesting.
+
+Choose from the following activities:
+
+a) New Block: Regular Polygon
+Learn how to create polygons with any number of sides.
+
+b) New Block: Shape
+Learn how to create any shape you want.
+
+c) New Block: Line
+Learn how to draw lines.
+
+d) New Block: Arc
+Learn how to draw arcs.
+
+e) Make a Shape Scene
+Now that you have some new blocks.
+
+I Choose (B)
+
+The first code - fill("red");
+        shape(200, 200, 0, 400, 400, 400);
+        fill("blue");
+        shape(200, 200, 0, 0, 400, 0);
+
+Modified code - fill("red");
+        shape(200, 200, 0, 400, 400, 400);
+        fill("blue");
+        shape(200, 200, 0, 0, 400, 0);
+        fill("green");
+        shape(200, 200, 0, 0, 0, 400);
+        fill("yellow");
+        shape(200, 200, 400, 0, 400, 400);
+
+Lesson - 5: Variables
+
+Level - 1
+
+The code - var xPosition = 50;
+        ellipse(xPosition, 350, 100, 100);
+
+Read the code above and make a prediction.
+
+Where will the circle be drawn?
+What will happen if you change the number in Line 1?
+
+Ans: It changes the position of x.
+
+Level - 2
+
+The code - var xPosition = 300;
+        var whatsTheY = 100;
+        ellipse(xPosition, whatsTheY);
+
+In which corner of the screen will the circle be drawn?
+
+Ans: At the position of x:300 and y:100
+
+Level - 3
+
+The first code - var xPosition = 300;
+        var whatsTheY = 100;
+        ellipse(xPosition, whatsTheY);
+
+Update the values of the variables above so the ellipse is drawn in the bottom center of the screen
+
+Hint: Change the values of the variables to update the position of the ellipse
+
+Modified code - var xPosition = 200;
+        var whatsTheY = 280;
+        ellipse(xPosition, whatsTheY);
+
+Level - 4
+
+This program has multiple errors caused by bad variable labels. The errors prevent the program from being viewed in block mode, so the code is in text. Below are a few rules for naming variables.
+
+Labels can't have spaces.
+Labels can't start with a number.
+Capitalization and spelling must be exactly the same.
+
+Find the rule each variable label violates.
+Correct the errors by picking new names that follow the rules above.
+
+The first code - var size of circle = 150;
+        var 1dimension = 100;
+        var yLocation = 200;
+        fill("OrangeRed");
+        ellipse(1dimension, YLocation, size of circle, size of circle);
+
+Modified code - var sizeOfCircle = 150;
+        var Idimension = 100;
+        var yLocation = 200;
+        fill("OrangeRed");
+        ellipse(Idimension, yLocation, sizeOfCircle, sizeOfCircle);
+
+Level - 5
+
+This program has only one variable called petalSize but it uses it 8 different times. This makes it easy to quickly make lots of changes to how your picture is drawn.
+
+Update the code so the red petals touch each other
+   - Change the number assigned to petalSize until the red petals touch
+   - Try to find the size that makes the most sense. Compare your answer with someone around you.
+
+The first code - var petalSize = 50;
+        noStroke();
+        background("ForestGreen");
+        fill("red");
+        ellipse(150,200,petalSize,petalSize);
+        ellipse(200,150,petalSize,petalSize);
+        ellipse(250,200,petalSize,petalSize);
+        ellipse(200,250,petalSize,petalSize);
+        fill("black");
+        ellipse(200,200,50,50);
+
+Modified code - var petalSize = 100;
+        noStroke();
+        background("ForestGreen");
+        fill("red");
+        ellipse(150,200,petalSize,petalSize);
+        ellipse(200,150,petalSize,petalSize);
+        ellipse(250,200,petalSize,petalSize);
+        ellipse(200,250,petalSize,petalSize);
+        fill("black");
+        ellipse(200,200,50,50);
+
+Level - 6
+
+Choose from the following activities to practice using variables.
+
+Choose from the following activities:
+
+a) Changing Variable Value
+Make the circle so big it fills up the whole screen.
+
+b) Debug: Variable Names
+Fix the variable names to make the pink shapes appear.
+
+c) Debug: Unused Variables
+Make this code easier to read by using variables.
+
+d) Debug: Adding Variables
+Fix the variable names to make the street light appear.
+
+I Choose (C)
+
+The first code - var earSize = 80;
+        var eyeSize = 15;
+        var center = 200;
+        fill("saddlebrown");
+        ellipse(130, 115, 80, 80);
+        ellipse(270, 115, 80, 80);
+        ellipse(200, 195, 205, 205);
+        ellipse(200, 245, 100, 100);
+        fill("black");
+        ellipse(200, 225, 20, 20);
+        ellipse(165, 175, 15, 15);
+        ellipse(235, 175, 15, 15);
+        line(200, 235, 200, 265);
+        noFill();
+        arc(200, 215, 100, 100, 35, 145);
+
+Update the code to use the variables
+
+Modified code - var earSize = 80;
+        var eyeSize = 15;
+        var center = 200;
+        fill("saddlebrown");
+        ellipse(130, 115, earSize, earSize);
+        ellipse(270, 115, earSize, earSize);
+        ellipse(center, 195, 205, 205);
+        ellipse(center, 245, 100, 100);
+        fill("black");
+        ellipse(center, 225, 20, 20);
+        ellipse(165, 175, eyeSize, eyeSize);
+        ellipse(235, 175, eyeSize, eyeSize);
+        line(center, 235, center, 265);
+        noFill();
+        arc(center, 215, 100, 100, 35, 145);
+
+Level - 7
+
+This program currently draws a face, but the eyes are two different sizes. Change the program to use the variable for the size of both eyes, and run the code to make sure both eyes are drawn at the same size.
+
+Run the program to see how it works.
+Change the program to use the eyeSize variable.
+Run the program with different values for eyeSize and choose your favorite size.
+
+The first code - var eyeSize = 27;
+        noStroke();
+        background("green");
+        fill("yellow");
+        ellipse(200,200,200,200);
+        fill("black");
+        ellipse(160,170,eyeSize,eyeSize);
+        ellipse(240,170,10,10);
+        fill("white");
+        rect(160,240,80,20);
+
+Modified code - var eyeSize = 27;
+        noStroke();
+        background("green");
+        fill("yellow");
+        ellipse(200,200,200,200);
+        fill("black");
+        ellipse(160,170,eyeSize,eyeSize);
+        ellipse(240,170,eyeSize,eyeSize);
+        fill("white");
+        rect(160,240,80,20);
+
+Level - 8
+
+Expand your variables skills with these challenges.
+
+Choose from the following activities:
+
+a) Challenge: Changing Image
+Draw a changing image using variables, shapes and drawing tools you have learned so far.
+
+b) Challenge: Updating Variables
+Test your understanding of variables to draw something more complex.
+
+c) Challenge: String Variables
+Use variables with colors!
+
+d) Abstract Art
+Use what you've learned so far to create a drawing or piece of abstract artwork.
+
+e) Nature Scene
+Use what you've learned so far to create a drawing of nature.
+
+So far we've only ever assigned a value to a variable once, but did you know you can update a variable during a program? Read through the example program we've provided, run it a few times to understand how it works, and then attempt to modify the program to draw one of the following images.
+
+I Choose (C)
+
+Lesson - 6: Random Numbers
+
+Level - 1
+
+The code below introduces a new math block, randomNumber().
+
+Write down what you think will happen when you press the run button
+Run the code
+Press the run button several times and notice what changes in the drawing each time
+
+The code - background("tomato");
+        fill("orange");
+        ellipse(randomNumber(200,400), 200, 50, 50);
+
+Ans: The ellipse position will change randomly from 200 to 400.
+
+Level - 2
+
+We have a new block in the Math drawer called randomNumber(). If we make your drawings with random numbers it will look a little bit different every time we run our program.
+
+Right now, the program only draws the ellipse on the right side of the screen. Let's update the code so the ellipse could appear anywhere horizontally on the screen.
+
+Change the numbers inside randomNumber() so the ellipse can appear anywhere horizontally on the screen
+
+The first code - background("tomato");
+        fill("orange");
+        ellipse(randomNumber(200,400), 200, 50, 50);
+
+Modified code - background("tomato");
+        fill("orange");
+        ellipse(randomNumber(0,400), 200, 50, 50);
+
+Level - 3
+
+Here's the same sun from last time. Right now only the x-coordinate is random, but we can make the y-coordinate random too!
+
+Make the ellipse appear at random y coordinates
+Drag out a randomNumber() block to the ellipse's Y parameter
+Update the parameters of the randomNumber() block to match the height of the screen
+
+The first code - background("tomato");
+        fill("orange");
+        ellipse(randomNumber(0,400), 200, 50, 50);
+
+Modified code - background("tomato");
+        fill("orange");
+        ellipse(200, randomNumber(0,400), 50, 50);
+
+Level - 4
+
+Variables can be assigned a random number too. This lets we save a single random value so that we can use it as many times as we want in your program.
+
+Make the eyes appear at random sizes
+Drag out a randomNumber() and put it on the right-side of the eyeSize variable block
+Update the parameters of the randomNumber() block so the eyes appear both small and big.
+
+The first code - var eyeSize = 27;
+        noStroke();
+        background("green");
+        fill("yellow");
+        ellipse(200,200,200,200);
+        fill("black");
+        ellipse(160,170,eyeSize,eyeSize);
+        ellipse(240,170,eyeSize,eyeSize);
+        fill("white");
+        rect(160,240,80,20);
+
+Modified code - var eyeSize1 = 50;
+        var eyeSize2 = 10;
+        var x = randomNumber(eyeSize1,eyeSize2);
+        noStroke();
+        background("green");
+        fill("yellow");
+        ellipse(200,200,200,200);
+        fill("black");
+        ellipse(160,170,x,x);
+        ellipse(240,170,x,x);
+        fill("white");
+        rect(160,240,80,20);
+
+Level - 5
+
+These two flowers use a single variable to store their petal size, but the value stored in the variable changes in the middle of the program.
+Let's update the program so each petal appears with different sizes each time the program is run.
+
+Update the first flower's petals to be a random size
+   - Find the first time the petalSize variable is used
+   - Drag out a randomNumber() block into the right-side of the petalSize variable
+   - Update the parameters of the randomNumber() block
+Update the second flower's petals to be a random size
+   - Find the second time the petalSize variable is used
+   - Drag out a randomNumber() block into the right-side of the petalSize variable
+   - Update the parameters of the randomNumber() block
+
+The first code - var petalSize;
+        background("green");
+        petalSize = 30;
+        fill("purple");
+        ellipse(75,100,petalSize,petalSize);
+        ellipse(125,100,petalSize,petalSize);
+        ellipse(100,75,petalSize,petalSize);
+        ellipse(100,125,petalSize,petalSize);r
+        fill("yellow");
+        ellipse(100,100, 50, 50);
+        petalSize = 60;
+        fill("purple");
+        ellipse(275,300,petalSize,petalSize);
+        ellipse(325,300,petalSize,petalSize);
+        ellipse(300,275,petalSize,petalSize);
+        ellipse(300,325,petalSize,petalSize);
+        fill("yellow");
+        ellipse(300,300, 50, 50);
+
+Modified code - var petalSize;
+        background("green");
+        petalSize = randomNumber(30,60);
+        fill("purple");
+        ellipse(75,100,petalSize,petalSize);
+        ellipse(125,100,petalSize,petalSize);
+        ellipse(100,75,petalSize,petalSize);
+        ellipse(100,125,petalSize,petalSize);r
+        fill("yellow");
+        ellipse(100,100, 50, 50);
+        petalSize = randomNumber(30,60);
+        fill("purple");
+        ellipse(275,300,petalSize,petalSize);
+        ellipse(325,300,petalSize,petalSize);
+        ellipse(300,275,petalSize,petalSize);
+        ellipse(300,325,petalSize,petalSize);
+        fill("yellow");
+        ellipse(300,300, 50, 50);
+
+Level - 6
+
+Try out your new skills on these levels.
+
+Choose from the following activities:
+
+a) Modify the Planets
+Make the planets different sizes using random numbers.
+
+b) Debug: Random Shape Position
+Keep the rectangles stacked on top of each other by changing the way random numbers are used.
+
+c) Modify the Scene
+Randomize the location of items in the scene using random numbers.
+
+I Choose (A)
+
+Level - 7
+
+Alexis is working on a program to draw a rainbow snake that "wiggles" each time it's run. She's started the program, but needs help finishing!
+
+Run the program several times to see how the starter code works.
+Add at least three new different colored circles to your rainbow snake.
+Use randomNumber() to make the rest of the snake's body move up and down like the first three.
+
+The first code - background("skyBlue");
+        fill("red");
+        ellipse(100, randomNumber(190,210), 50, 50);
+        fill("orange");
+        ellipse(140, randomNumber(190,210), 50, 50);
+        fill("yellow");
+        ellipse(180, randomNumber(190,210), 50, 50);
+
+Modified code - background("skyBlue");
+        fill("red");
+        ellipse(100, randomNumber(190,210), 50, 50);
+        fill("orange");
+        ellipse(140, randomNumber(190,210), 50, 50);
+        fill("yellow");
+        ellipse(180, randomNumber(190,210), 50, 50);
+        fill("green");
+        ellipse(220, randomNumber(190,210), 50, 50);
+        fill("blue");
+        ellipse(260, randomNumber(190,210), 50, 50);
+        fill("purple");
+        ellipse(300, randomNumber(190,210), 50, 50);
+
+Level - 8
+
+Try out these extra challenges with random numbers.
+
+Choose from the following activities:
+
+a) Random RGB
+Randomize the colors of this rainbow.
+
+b) Symmetry
+Use math to restrict the range of random numbers.
+
+c) Random Lines
+Randomize all the properties of these lines.
+
+d) Random Arcs
+Randomize all the properties of these arcs.
+
+e) Favorite Song
+Use what you've learned so far to create a drawing that represents your favorite song!
+
+f) Favorite Season
+Use all that you have learned so far to create a drawing of your favorite season that changes each time you run the program!
+
+I choose (A)
+
+Lesson - 7: Mini-Project - Robot Faces
+
+Level - 1
+
+Review all the different types of shape blocks we've seen so far. Which ones can you use to help you create your robot face?
+
+Choose from the following activities:
+
+a) Review Regular Polygon
+Review how to create polygons with any number of sides. How can you use this block with your robot face?
+
+b) Review Shape Block
+Review how to use the shape block. How can you use this block with your robot face?
+
+c) Review Line Block
+Review how to draw lines. How can you use this block with your robot face?
+
+d) Review Random Lines
+Review how to randomize all the properties of these lines. How can you use this feature with your robot face?
+
+e) Review Arc Block
+Review how to draw arcs. How can you use this block with your robot face?
+
+f) Review Random Arcs
+Review how to randomize the properties of the arcs. How can you use this feature with your robot face?
+
+g) Review Point Block
+Review how to draw points on the screen. How can you use this block with your robot face?
+
+h) Review Random RGB
+Review how to create random RGB colors. How can you use this feature with your robot face? 
+
+I Choose (C)
+
+Level - 2
+
+Use at least 4 different shape blocks, at least 4 variables with random numbers to create a robot face with unique and creative features!
+
+Use your plan from our activity guide to create our robot face.
+Make sure we use at least 4 variables with random numbers to give our robot features that change each time the program is run.
+
+The code - background("white");
+        rect(160, 50, 80, 80);
+        arc(200, 51, 60, 60, 180, 360);
+        arc(161, 85, 50, 50, 90, 270);
+        arc(240, 85, 50, 50, 270, 90);
+        rect(190, 130, 20, 30);
+        rect(150, 160, 100, 100);
+        shape(150, 260, 190, 260, 150, 360);
+        shape(210, 260, 250, 260, 250, 360);
+        shape(150, 160, 150, 180, 90, 230);
+        shape(250, 160, 250, 180, 310, 230);
+
+Lesson - 8: Sprites
+
+Level - 1
+
+The code below introduces three new blocks you haven't seen before: createSprite(), setAnimation(), and drawSprites(). Throughout this lesson, we'll learn more about how these blocks work.
+
+Read the code below and try to predict what will happen on the screen
+Optional: Come up with 1-2 "What If..." questions that you wonder about the code. For example: what if drawSprites() was used at the top of the code instead of at the bottom?
+
+The code - var fruit = createSprite(100, 200);
+        fruit.setAnimation("apple");
+        var vegetable = createSprite(300, 200);
+        vegetable.setAnimation("carrot");
+        drawSprites();
+
+Ans: If the drawSprites() method was at the top the createSprites() method will not work.
+
+Level - 2
+
+Sprites are like containers - they can hold several properties that make it easier to manage our animations and make more complex drawings.
+Right now, our sprites are just gray rectangular containers. By the end of this lesson, we'll learn how to use even more properties of sprites like images!
+
+Create a new sprite variable called sprite1
+   - Drag out a createSprite() block and give it the variable name sprite1
+Draw your sprites on the screen
+   - Drag out a drawSprites() block
+
+Hint: Sprites are drawn from their center, which means that center of the square (not the top left corner) is at (200, 200).
+
+The code - var sprite = createSprite(200, 200);
+        drawSprites();
+
+Level - 3
+
+This program should create two new sprites, one on the left of the screen and one on the right, but it's only drawing one.
+
+The code - var leftSprite = createSprite(100, 200);
+        drawSprites();
+        var rightSprite = createSprite(300, 200);
+        drawSprites();
+
+Level - 4
+
+Let's update the code below so different animations appear for the fruit and vegetable sprites.
+
+Update the fruit animation
+   - Use the dropdown menu in the setAnimation() block to select a different sprite to use
+Update the vegetable animation
+   - Use the dropdown menu in the setAnimation() block to select a different sprite to use
+Optional Challenge: Try changing the position of the sprites so they're stacked vertically instead of horizontally!
+
+The first code - var fruit = createSprite(100, 200);
+        fruit.setAnimation("apple");
+        var vegetable = createSprite(300, 200);
+        vegetable.setAnimation("carrot");
+        drawSprites();
+
+Modified code - var fruit = createSprite(200, 100);
+        fruit.setAnimation("strawberry");
+        var vegetable = createSprite(200, 300);
+        vegetable.setAnimation("broccoli");
+        drawSprites();
+
+Level - 5
+
+Let's use our new sprite blocks to create a student sprite!
+
+Create a sprite variable called student
+   - Drag out a createSprite(200, 200) block and change the variable name to student
+Set the animation
+   - Drag out a setAnimation() block
+   - Change the first part of the block to be the same name as the variable above: student
+   - Use the dropdown menu to select different sprites to use as a student
+Draw the sprite on the screen
+   - Drag out a drawSprites() block
+
+The code - var student = createSprite(200, 200);
+        student.setAnimation("Jim");
+        drawSprites();
+
+Level - 6
+
+This program draws four sprites to the screen, and one of them has an animation from the Animation Tab!
+
+Run the code to see what happens.
+Look in the Animation Tab to see what animations are available.
+   - Feel free to alter your animations or choose a new one.
+Use the setAnimation command to change the look of your other sprites.
+
+The first code - var topLeftSprite = createSprite(100, 100);
+        var topRightSprite = createSprite(300, 100);
+        var bottomLeftSprite = createSprite(100, 300);
+        var bottomRightSprite = createSprite(300,300);
+        bottomRightSprite.setAnimation("alien");
+        drawSprites();
+
+Modified code - var topLeftSprite = createSprite(100, 100);
+        topLeftSprite.setAnimation("planeRed1");
+        var topRightSprite = createSprite(300, 100);
+        topRightSprite.setAnimation("flyBot");
+        var bottomLeftSprite = createSprite(100, 300);
+        bottomLeftSprite.setAnimation("bunny");
+        var bottomRightSprite = createSprite(300,300);
+        bottomRightSprite.setAnimation("alien");
+        drawSprites();
+
+Level - 7
+
+This program draws three sprites to the screen, but it's not working yet.
+The wrong sprite is in front, and one sprite's animation isn't showing up.
+
+Run the code to see what happens.
+Fix the two problems in the code.
+Hint: Just like shapes, sprites are drawn in the order they are created.
+
+The first code - var message = createSprite(200, 200);
+        message.setAnimation("textGetReady");
+        var drink = createSprite(100, 200);
+        drink.setAnimation("soda");
+        var dessert = createSprite(300, 200);
+        drink.setAnimation("ice_cream");
+        drawSprites();
+
+Modified code - var drink = createSprite(100, 200);
+        drink.setAnimation("soda");
+        var dessert = createSprite(300, 200);
+        dessert.setAnimation("ice_cream");
+        var message = createSprite(200, 200);
+        message.setAnimation("textGetReady");
+        drawSprites();
+
+Level - 9
+
+Use your new sprite and animation skills to complete these levels.
+
+Choose from the following activities:
+
+a) Where Are the Sprites?
+The sprites are being created, but you need to change the code to make the sprites appear.
+
+b) Sprite Animations
+Fix the names of the animations so that the errors go away.
+
+c) Sprite Name
+Fix the sprite name so that all three cherries appear.
+
+d) Sprite Order
+Change the code so that we can see the ladybug and the snail.
+
+e) Fish Scene
+Get creative and make a fish scene.
+
+f) Combine Ideas
+Create your own scene using both drawing and sprites.
+
+I Choose (C)
+
+Level - 10
+
+Use what we've learned to create your own sprites.
+The example is just one way to complete the level. Decide for ourself what we want our sprites to look like.
+
+Go to the animation tab and add at least two animations to our project.
+In the code tab, create at least two sprites in two different places on the screen.
+Assign each sprite a different animation.
+Draw our sprites to the screen.
+
+The code - var crab = createSprite(200, 200);
+        crab.setAnimation("crab_1");
+        var knife = createSprite(320, 130);
+        knife.setAnimation("knife_1");
+        var fork = createSprite(80, 130);
+        fork.setAnimation("fork_1");
+        drawSprites();
+
+Level - 11
+
+Try these extra challenges that will help you make your sprites even more special.
+
+Choose from the following activities:
+
+a) Find an image online
+Upload an image from another website to complete a kite scene.
+
+b) Draw Your Own Character
+Create a sprite animation from scratch.
+
+c) Add Your Own Characters
+Draw two sprites from scratch and add them to the scene.
+
+d) Fun Hairstyles
+For this free play challenge, either draw your own sprites or edit existing sprites to give them your favorite hairstyles!
+
+e) Your Fashion Style
+For this free play challenge, either draw your own sprites or edit existing sprites to give them your unique fashion style!
+
+I Choose (C)
+
+Lesson - 9: Sprite Properties
+
+Level - 1
+
+The code - var bee = createSprite(200,200);
+        bee.setAnimation("bee");
+        bee.x = 350;
+        bee.y = 350;
+        drawSprites();
+
+What will the program show?
+ A.   a bee sprite in the middle of the screen
+ B.   a bee sprite in the bottom right corner
+ C.   two bee sprites, one in the middle and one in the bottom right corner
+ D.   three bee sprites, all in different places
+ E.   nothing, there will be an error
+
+Ans: B
+
+Level - 2
+
+Sprite properties keep track of all the information your program needs to know about a sprite, such as its size and location.
+We can change the values of these properties just like you do variables, and see the results when our sprite is drawn to the screen.
+
+Run the program to see where the sprites appear.
+Change the location of the paint brush to touch the paint palette.
+   - Change the sprite.x and sprite.y properties of the paint brush sprite to change it's location.
+
+The first code - var palette = createSprite();
+        palette.setAnimation("paint_palette");
+        var brush = createSprite();
+        brush.setAnimation("paint_brush");
+        palette.x = 100;
+        palette.y = 300;
+        brush.x= 300;
+        brush.y = 100;
+        drawSprites();
+
+Modified code - var palette = createSprite();
+        palette.setAnimation("paint_palette");
+        var brush = createSprite();
+        brush.setAnimation("paint_brush");
+        palette.x = 100;
+        palette.y = 300;
+        brush.x= 140;
+        brush.y = 260;
+        drawSprites();
+
+Level - 3
+
+Sprites have lots of properties. Check out the two new blocks in this activity and try them out for yourself.
+Notice that different sprites can use the same animation, and still look different because of properties.
+
+Run the program to see what is different about the first two notes.
+   - Notice how the rotation and scale blocks make the first two notes look different.
+Use the same blocks on the last two notes to make them look different, too.
+   - Use the the rotation and scale blocks on the last two notes.
+
+The first code - background("skyblue");
+        var drums = createSprite(200,290);
+        drums.setAnimation("drum_set");
+        var note1 = createSprite(50,50);
+        note1.setAnimation("eighth_note");
+        note1.scale = 0.3;
+        note1.rotation = 20;
+        var note2 = createSprite(150,50);
+        note2.setAnimation("eighth_note");
+        note2.scale = 0.7;
+        note2.rotation = -30;
+        var note3 = createSprite(250,50);
+        note3.setAnimation("eighth_note");
+        var note4 = createSprite(350,50);
+        note4.setAnimation("eighth_note");
+        drawSprites();
+
+Modified code - background("skyblue");
+        var drums = createSprite(200,290);
+        drums.setAnimation("drum_set");
+        var note1 = createSprite(50,50);
+        note1.setAnimation("eighth_note");
+        note1.scale = 0.3;
+        note1.rotation = 20;
+        var note2 = createSprite(150,50);
+        note2.setAnimation("eighth_note");
+        note2.scale = 0.7;
+        note2.rotation = -30;
+        var note3 = createSprite(250,50);
+        note3.setAnimation("eighth_note");
+        note3.scale = 0.3;
+        note3.rotation = 20;
+        var note4 = createSprite(350,50);
+        note4.setAnimation("eighth_note");
+        note4.scale = 0.7;
+        note4.rotation = -30;
+        drawSprites();
+
+Level - 4
+
+Try out the sprite properties you have learned here
+
+Choose from the following activities:
+
+a) Scale Property
+Use the scale property to make the animals the right size.
+
+b) Rotation Property
+Rotate the cars so they fit in the traffic lanes.
+
+c) Multiple Properties
+Rotate and scale the sprites so they look like they are floating in space.
+
+I Choose (B)
+
+Level - 5
+
+The food is way too big to fit on the plate. Use your knowledge of sprite properties to make it fit.
+
+Run the program to see how big the food is.
+Use sprite properties to scale all of the food sprites down so they fit on the plate.
+
+The first code - background("burlywood");
+        fill("white");
+        ellipse(200,200, 350);
+        var fries = createSprite(250,140);
+        fries.setAnimation("fries");
+        var burger = createSprite(110,200);
+        burger.setAnimation("burger");
+        var dessert = createSprite(240,270);
+        dessert.setAnimation("watermelon");
+        drawSprites();
+
+Modified code - background("burlywood");
+        fill("white");
+        ellipse(200,200, 350);
+        var fries = createSprite(250,140);
+        fries.setAnimation("fries");
+        fries.scale = 0.6;
+        var burger = createSprite(110,200);
+        burger.setAnimation("burger");
+        burger.scale = 0.6;
+        var dessert = createSprite(240,270);
+        dessert.setAnimation("watermelon");
+        dessert.scale = 0.6;
+        drawSprites();
+
+Level - 6
+
+Try these new challenges with sprite properties
+
+Choose from the following activities:
+
+a) New Block : Tint
+Adjust the sprite's color with tint.
+
+b) New Blocks : Height & Width
+Stretch your sprite horizontally or vertically.
+
+c) New Block : Alpha
+Adjust the sprite's transparency with alpha.
+
+I Choose (C)
+
+Lesson - 10: Text
+
+Level - 1
+
+Read the code below and make a prediction.
+
+What will show on the screen?
+
+Ans: The text "hello" and "everyone!" will show on the screen.
+
+Where will it be displayed?
+
+Ans: "hello" at x: 10, y: 100 and "everyone!" at x: 200, y: 300
+
+Level - 2
+
+We can put text anywhere we'd like on the screen using the text block.
+
+Change the displayed text in the provided code.
+   - Replace the text in the text block that says "Change me and add another text block!"
+Add another sentence in a different part of the screen.
+   - Add a second text block and change the x and y location in the block.
+
+The first code - background("lightyellow");
+        text("Change me and add another text block!", 50, 200);
+
+Modified code - background("lightyellow");
+        text("What's your name?", 50, 200);
+        text("Hey, nice to meeting you.", 0, 15);
+
+Level - 3
+
+We can change the size of the text using the textSize block.
+
+Run the code to see how it works.
+Add code to make the word "large" the biggest.
+   - Add another textSize block before the text block that prints the text "large" to the screen.
+   - Make sure the pixel size is bigger than the "small" and "medium" words.
+
+The first code - background("lightblue");
+        textSize(20);
+        text("small", 170, 100);
+        textSize(40);
+        text("medium", 130, 200);
+        text("large", 120, 300);
+
+Modified code - background("lightblue");
+        textSize(20);
+        text("small", 170, 100);
+        textSize(40);
+        text("medium", 130, 200);
+        textSize(100);
+        text("large", 120, 300);
+
+Level - 4
+
+Try out our text skills on these activities.
+
+Choose from the following activities:
+
+a) Debug: Berry Greeting
+Change the order so that the strawberry appears on top of the lines but behind the text and eyes.
+
+b) Debug: Flying Riddle
+Fix the bug so that the text appears.
+
+c) Add Text: Score
+Add text to this scene to display the score.
+
+I Choose (B)
+
+Level - 5
+
+Here is a scene, but it needs text.
+
+Add two pieces of text to the following scene.
+Make the two pieces of text different sizes.
+
+The first code - var grass = createSprite(200,200);
+        grass.setAnimation("floating_grass");
+        var alien = createSprite(180,100);
+        alien.setAnimation("alien");
+        alien.scale = 1.3;
+        var robot = createSprite(300,300);
+        robot.setAnimation("robot");
+        robot.scale = 0.2;
+        drawSprites();
+
+Modified code - var grass = createSprite(200,200);
+        grass.setAnimation("floating_grass");
+        var alien = createSprite(180,100);
+        alien.setAnimation("alien");
+        alien.scale = 1.3;
+        var robot = createSprite(300,300);
+        robot.setAnimation("robot");
+        robot.scale = 0.2;
+        drawSprites();
+        textSize(20);
+        text("phantom", 0, 15);
+        textSize(40);
+        text("hades", 15, 100);
+
+Level - 6
+
+Try out these new blocks and challenges.
+
+Choose from the following activities:
+
+a) Text Color
+Learn how to change the color of your text.
+
+b) White Text on White Background
+Learn how to make text stand out with a colorful stroke.
+
+c) Wrap Text
+Learn how to make big text fit inside a text box.
+
+d) Favorite Quote or Saying
+Use what you've learned to create a scene that represents your favorite quote or saying.
+
+e) Favorite Scene
+Use what you've learned to recreate your favorite book, movie, TV show, or even video game scene.
+
+I Choose (A)
+
+Lesson - 11: Mini-Project - Captioned Scenes
+
+Level - 2
+
+First, make the background of our scene by using the background command to fill the screen with a color, 
+and then use at least 2 shape commands to finish the background of our scene.
+
+Give our scene a background.
+Make sure we use at least 2 shapes in our background.
+
+The code - background("skyblue");
+        fill("yellow");
+        ellipse(350, 50, 60, 60);
+        fill("green");
+        arc(50, 200, 100, 100, 90, 270);
+        fill("green");
+        ellipse(100, 200, 100, 100);
+        fill("black");
+        rect(95, 250, 10, 100);
+        fill("green");
+        rect(0, 350, 400, 50);
+
+Level - 3
+
+With our background in place, it's time to add our sprites.
+
+Add or draw at least 2 sprite animations in the Animation Tab.
+Create at least 2 sprites and assign each one an animation.
+Set the value for any sprite properties we'd like to use.
+   - Try to use at least 1 sprite property (such as rotation, scale, tint or any others in the Toolbox) with each sprite.
+Draw all of our sprites to the screen.
+
+The code - background("skyblue");
+        var sprite1 = createSprite(200, 200);
+        var sprite2 = createSprite(350, 320);
+        sprite1.setAnimation("h1");
+        sprite1.rotation = 90;
+        sprite1.scale = 2;
+        sprite2.setAnimation("h2");
+        sprite2.scale = 2;
+        drawSprites();
+        fill("yellow");
+        ellipse(350, 50, 60, 60);
+        fill("green");
+        arc(50, 200, 100, 100, 90, 270);
+        fill("green");
+        ellipse(100, 200, 100, 100);
+        fill("black");
+        rect(95, 250, 10, 100);
+        fill("green");
+        rect(0, 350, 400, 50);
+
+Level - 4
+
+The final piece of our scene is to add text.
+
+Add at least 2 lines of text to our project.
+Use any other commands to change the appearance of our text.
+
+The code - background("skyblue");
+        var sprite1 = createSprite(200, 200);
+        var sprite2 = createSprite(350, 320);
+        sprite1.setAnimation("h1");
+        sprite1.rotation = 90;
+        sprite1.scale = 2;
+        sprite2.setAnimation("h2");
+        sprite2.scale = 2;
+        drawSprites();
+        fill("yellow");
+        ellipse(350, 50, 60, 60);
+        textSize(20);
+        text("Phantom", 50, 15);
+        textSize(40);
+        text("Hades", 50, 65);
+        fill("green");
+        arc(50, 200, 100, 100, 90, 270);
+        fill("green");
+        ellipse(100, 200, 100, 100);
+        fill("black");
+        rect(95, 250, 10, 100);
+        fill("green");
+        rect(0, 350, 400, 50);
+
+Level - 5
+
+Check over our scene one last time to make sure we have included everything that we want.
+
+Compare the scene that we drew to our plan.
+Make any last changes.
+What are you most proud of?
+
+Ans: What I proud the most is the environmental background of my code.
+
+Lesson - 12: The Draw Loop
+
+Level - 1
+
+Here's an example of the draw loop at work.
+
+Record your prediction in the box below.
+Run the program to see what this program does!
+
+Ans: The ellipse will display at random position.
+
+Level - 2
+
+Now it's our turn to do some work with the draw loop. Remember that the code inside the draw loop is run by Game Lab over and over again.
+
+Add code to this program so that our drawing has orange circles being drawn, too.
+Move on when our program looks like the picture to the right.
+
+The first code - noStroke();
+        function draw(){
+        fill("green");
+        ellipse(randomNumber(0,400), randomNumber(0,400));
+        }
+
+Modified code - noStroke();
+        function draw(){
+        fill("green");
+        ellipse(randomNumber(0,400), randomNumber(0,400));
+        fill("orange");
+        ellipse(randomNumber(0,400), randomNumber(0,400));
+        }
+
+Level - 3
+
+This program has one small difference that will make it run a little differently. Again though, remember:
+
+All your code outside the draw loop is run first, one time
+All your code inside the draw loop is run over and over forever
+What will this program do? Write your prediction below.
+
+Ans: The background colour red will display.
+
+Level - 4
+
+By changing sprite properties in the draw loop, we can animate our characters.
+
+Try changing the numbers in the random number block and running the program again.
+
+The code - var sprite = createSprite(100,200);
+        sprite.setAnimation("greenAlien");
+        function draw() {
+        background("orange");
+        sprite.rotation = randomNumber(-10, 10);
+        drawSprites();
+        }
+
+Level - 5
+
+This animation already is updating one sprite's x property to make it look like it's shaking.
+
+Edit the code in this program to make the second sprite shake like the first one.
+Move on when our program looks like the picture to the right.
+
+The first code - var pencil = createSprite(100,200);
+        pencil.setAnimation("pencil");
+        var brush = createSprite(300,200);
+        brush.setAnimation("brush");
+        function draw(){
+        background("white");
+        pencil.x = randomNumber(100,110);
+        brush.x = 300;
+        drawSprites();
+        }
+
+Modified code - var pencil = createSprite(100,200);
+        pencil.setAnimation("pencil");
+        var brush = createSprite(300,200);
+        brush.setAnimation("brush");
+        function draw(){
+        background("white");
+        pencil.x = randomNumber(100,110);
+        brush.x = randomNumber(300,310);
+        drawSprites();
+        }
+
+Level - 6
+
+Try out using the draw loop with these activities.
+
+Choose from the following activities:
+
+a) Updating Rotation
+Make both aliens dance in space using their rotation properties.
+
+b) Debug: Blurry Sprite
+Debug a blurry sprite animation.
+
+c) Debug: Sprite Not Moving
+Debug why the sprite is not moving even though we update its position in the draw loop.
+
+I Choose (B)
+
+Level - 7
+
+This level is very similar to the last, but this time, we'll add in the draw loop yourself.
+
+Add the draw loop block to the bottom of this program.
+Move any blocks that need to be inside the draw loop.
+Move on when our program looks like the picture to the right.
+
+The first code - var salt = createSprite(200,200);
+        salt.setAnimation("salt");
+        background("skyblue");
+        drawSprites();
+
+Modified code - var salt = createSprite(200,200);
+        salt.setAnimation("salt");
+        function draw() {
+        background("skyblue");
+        salt.x = 200 + randomNumber(-5,5);
+        salt.y = 200 + randomNumber(-5,5);
+        drawSprites();
+        }
+
+Level - 8
+
+Try out these draw loop challenges.
+
+Choose from the following activities:
+
+a) Recreate a Scene
+Recreate the animated scene of animals jumping on a couch.
+
+b) Animate The Rainbow Snake
+Animate the rainbow snake you saw in a previous lesson using the draw loop.
+
+c) Favorite Animal
+Create a scene with your favorite animal doing your favorite activity!
+
+d) Favorite Food ... Puns
+Create a scene with your favorite food, animated, and telling a punny joke!
+
+e) Challenge: Extend Your Scene
+Use the draw loop to make your sprite from last lesson move.
+
+I Choose (A)
+
+Lesson - 13: Sprite Movement
+
+Level - 1
+
+It is used to increase the value of a variable by 1. We might call it the counter pattern since it can be used to make a variable that counts up.
+We'll use this pattern a lot, especially with the draw loop. Let's see what that looks like.
+
+This program creates a variable counter and then uses the counter pattern to make it count up.
+When we run the program what do think we'll see on the screen?
+
+Read the program and make a prediction of what the output will be.
+Run the program to check your prediction.
+Can you explain what we observed?
+
+The code - var counter = 0;
+        function draw(){
+        background("white");
+        textSize(counter);
+        text(counter, 0, 400);
+        counter = counter + 1;
+        }
+
+Ans: This program will display a numbers 0 upto 400.
+
+Level - 2
+
+Using the counter pattern, we can write programs that animate sprites smoothly.
+Adding to or removing from a sprite's x or y property in the draw loop makes your sprite move just a bit each time it is redrawn.
+
+Read the code that makes the jet go up the screen.
+   - Find the counter pattern with the jet's y property in the draw loop.
+Add code that makes the plane move to the right, as in the sample image.
+   - Add the counter pattern with the plane's x property in the draw loop.
+   - It should look like this: 
+
+The first code - var jet = createSprite(350, 350);
+        jet.setAnimation("jet");
+        var plane = createSprite(50, 200);
+        plane.setAnimation("plane");
+        function draw() {
+        background("skyblue");
+        jet.y = jet.y - 3;
+        drawSprites();
+        }
+
+
+Modified code - createSprite(350, 350);
+        jet.setAnimation("jet");
+        var plane = createSprite(50, 200);
+        plane.setAnimation("plane");
+        function draw() {
+        background("skyblue");
+        jet.y = jet.y - 3;
+        plane.x = plane.x + 3;
+        drawSprites();
+        }
+
+Level - 3
+
+If adding to a sprite's x coordinate makes it move to the right, how could we make it move to the left?
+
+Make our program animate like the image to the right.
+
+Use the counter pattern to make the sprite move to the left.
+   - Use the fly.x with the counter pattern inside the draw loop so that in each frame the fly is drawn a little bit further to the left.
+Tip: We can make your sprites move faster by adding or subtracting larger numbers. The fly in our example moves about twice as fast as the plane in the last level.
+
+The first code - var fly = createSprite(350, 200);
+        fly.setAnimation("fly");
+        function draw() {
+        background("skyblue");
+        drawSprites();
+        }
+
+Modified code - var fly = createSprite(350, 200);
+        fly.setAnimation("fly");
+        function draw() {
+        background("skyblue");
+        fly.x = fly.x - 3;
+        drawSprites();
+        }
+
+Level - 4
+
+Updating both the x or y properties of a sprite can make it move diagonally. You can use the watchers under the code area to see how each property is changing.
+
+Read the code that makes the mouse go down.
+Run the program and look at the watchers to see what is happening
+   - Take a look at the mouse.x and mouse.y properties. Are they both increasing?
+Add one more line of code to make the mouse move diagonally.
+   - Use the counter pattern with the mouse's x property
+Run your code again and look at the watchers.
+Challenge: Set the sprite's rotation property so that it faces the direction it is moving.
+
+The first code - var mouse = createSprite(50, 50);
+        mouse.setAnimation("mouse");
+        mouse.scale = 0.5;
+        function draw() {
+        background("lightgreen");
+        mouse.y = mouse.y + 2;
+        drawSprites();
+        }
+
+Modified code - var mouse = createSprite(50, 50);
+        mouse.setAnimation("mouse");
+        mouse.scale = 0.5;
+        function draw() {
+        background("lightgreen");
+        mouse.y = mouse.y + 2;
+        mouse.x = mouse.y + 2;
+        drawSprites();
+        }
+
+Level - 6
+
+Try out using the draw loop with these activities.
+
+Choose from the following activities:
+
+a) Spinning
+Make sprites spin with the counter pattern.
+
+b) Debug: Watching the Counter Pattern
+Fix the direction the motorcycle is going by looking at the watchers.
+
+c) Rotation Direction
+Make the gears rotate together.
+
+I Choose (A)
+
+Level - 7
+
+Using the counter pattern, make all three of the fish move left across the screen as they do in the image to the right. 
+The blue fish should move the fastest, and the green fish should move the slowest.
+
+Use the counter pattern to make the blue fish move across the screen faster than the other fish.
+Use the counter pattern to make the green fish move across the screen slower than the other fish.
+
+The first code - var orangeFish = createSprite(400, randomNumber(0, 100));
+        orangeFish.setAnimation("orange_fish");
+        var blueFish = createSprite(250, randomNumber(0, 200));
+        blueFish.setAnimation("blue_fish");
+        var greenFish = createSprite(300, randomNumber(200, 300));
+        greenFish.setAnimation("green_fish");
+        function draw() {
+        background("navy");
+        orangeFish.x = orangeFish.x - 2;
+        drawSprites();
+        }
+
+Modified code - var orangeFish = createSprite(400, randomNumber(0, 100));
+        orangeFish.setAnimation("orange_fish");
+        var blueFish = createSprite(250, randomNumber(0, 200));
+        blueFish.setAnimation("blue_fish");
+        var greenFish = createSprite(300, randomNumber(200, 300));
+        greenFish.setAnimation("green_fish");
+        function draw() {
+        background("navy");
+        orangeFish.x = orangeFish.x - 2;
+        blueFish.x = blueFish.x - 2;
+        greenFish.x = greenFish.x - 0.5
+        drawSprites();
+        }
+
+Lesson - 14: Mini-Project - Animation
+
+Level - 2
+
+First, make the background of our scene by using the background command to fill the screen with one color, adding shape commands, or creating sprites.
+
+Make the background for our scene.
+   - Try to use at least 2 shapes in our background.
+
+The code - background("black");
+        var sprite = createSprite(100, 200);
+        var sprite1 = createSprite(300, 200);
+        sprite.scale = 0.5;
+        sprite1.scale = 0.5;
+        sprite.setAnimation("animalhead_arcticfox_1");
+        sprite1.setAnimation("animalhead_fox_1");
+        drawSprites();
+
+Level - 3
+
+With our background in place, it's time to add our sprites.
+
+Add or draw at least 2 sprite animations in the Animation Tab.
+Create at least 2 sprites and assign each one an animation.
+Set the value for any sprite properties you'd like to use.
+   - Try to use at least 1 sprite property (such as rotation, scale, tint or any others in the Toolbox) with each sprite.
+Draw all of our sprites to the screen.
+
+The code - background("black");
+        var sprite = createSprite(100, 200);
+        var sprite1 = createSprite(300, 200);
+        sprite.scale = 0.5;
+        sprite1.scale = 0.5;
+        sprite.setAnimation("animalhead_arcticfox_1");
+        sprite1.setAnimation("animalhead_fox_1");
+        drawSprites();
+
+
+Level - 4
+
+The next piece of our scene is to add text.
+
+Add at least 2 lines of text to our project.
+Use any other commands to change the appearance of our text.
+
+The code - background("black");
+        var sprite = createSprite(100, 200);
+        var sprite1 = createSprite(300, 200);
+        text("wow", 50, 50);
+        textSize(30);
+        sprite.scale = 0.5;
+        sprite1.scale = 0.5;
+        textSize(40);
+        text("text", 200, 100);
+        sprite.setAnimation("animalhead_arcticfox_1");
+        sprite1.setAnimation("animalhead_fox_1");
+        drawSprites();
+
+Level - 5
+
+The final piece of our scene is to animate our scene by adding movement.
+
+Add movement to our sprites, text, or drawn shapes.
+Include one type of random movement.
+Include one type of counter pattern movement.
+
+The code - var sprite = createSprite(100, 200);
+        var sprite1 = createSprite(300, 200);
+        function draw() {
+        background("black");
+        text("wow", 50, 50);
+        textSize(30);
+        sprite.scale = 0.5;
+        sprite1.scale = 0.5;
+        textSize(40);
+        text("text", 200, 100);
+        sprite.setAnimation("animalhead_arcticfox_1");
+        sprite1.setAnimation("animalhead_fox_1");
+        sprite.x = sprite.x + 3;
+        drawSprites();
+        }
+
+Level - 6
+
+Check over our animated scene one last time to make sure we have included everything that we want.
+
+Compare the animated scene that we drew to our plan.
+Make any last changes.
+What are most proud of?
+
+Ans: The movement of the sprite is good.
+
+Lesson - 15: Conditionals
+
+Level - 1
+
+Boolean expression - an expression that can only evaluate to TRUE or FALSE
+
+Read the code below. There are some new symbols in it which you haven't been introduced to.
+Take a guess at what they mean and try to answer the following question
+
+Which result will be printed in the console by this program?
+
+ A.   true
+    false
+    true
+ B.   0
+    200
+    100
+ C.   true
+    error
+    true
+ D.   false
+    true
+    false
+
+Ans: A
+
+Level - 3
+
+The program draws a race car and a finish line.
+We are going to figure out when the race car crosses the finish line. The sprites have all been set up for we.
+
+We need to find out if the race car has crossed the finish line!
+
+Add blocks to the text command to print the boolean to the screen.
+   - Add a ___ < ___ block to the "text" parameter of the text() block.
+   - Add a sprite.x block to both sides of the < sign.
+   - Make sure to update the sprite.x blocks with the names of the two sprites so that the boolean is asking is the x of the race car less than the x of the finish line?
+   - The text block should now look like this: 
+
+The first code - var finishLine = createSprite(40, 200);
+        finishLine.setAnimation("finish_line");
+        var raceCar = createSprite(400, 200);
+        raceCar.setAnimation("race_car");
+        function draw() {
+        background("white");
+        raceCar.x = raceCar.x - 2;
+        fill("black");
+        strokeWeight(5);
+        textSize(25);
+        text("The race car has crossed the finish line:", 100, 20, 300, 60);
+        fill("blue");
+        text("text", 100, 100);
+        drawSprites();
+        }
+
+Modified code - var finishLine = createSprite(40, 200);
+        finishLine.setAnimation("finish_line");
+        var raceCar = createSprite(400, 200);
+        raceCar.setAnimation("race_car");
+        function draw() {
+        background("white");
+        raceCar.x = raceCar.x - 2;
+        fill("black");
+        strokeWeight(5);
+        textSize(25);
+        text("The race car has crossed the finish line:", 100, 20, 300, 60);
+        fill("blue");
+        text((finishLine.x < raceCar.x), 100, 100);
+        drawSprites();
+        }
+
+Level - 4
+
+Boolean expressions allow us to ask questions, but in order to use those questions to change the program's behavior, we need an if () statement.
+
+Read the code for this race car program.
+What will the program do when the car crosses the finish line?
+Why is the if () block inside the draw loop?
+
+Ans: If the condition is true the text in the block will display.
+
+Level - 5
+
+Now that we know how to use if () statements, you can do more than just check if the apple has reached a scale of 2.
+You turn it into a pear once it happens.
+
+Use a conditional if () statement in the draw loop to check whether fruit.scale is greater than 2.
+If it is, change the fruit's animation to "pear".
+
+Add a conditional to the draw loop.
+   - Add an if () statement inside the draw loop where indicated by the comments.
+Add code to the conditional statement that asks if the scale of the fruit greater than 2.
+   - Add a ___ > ___ block to the if () statement.
+   - Add a scale block to the left side of the > operator.
+   - Type the number 2 into the right side of the > operator.
+   - Make sure you update the name of the sprite in the scale block.
+Add code inside the conditional to change the fruit to a pear.
+   - Add a setAnimation() block inside the if () statement.
+   - Set the animation to a pear.
+
+The first code - var fruit = createSprite(200, 200);
+        fruit.setAnimation("apple");
+        fruit.scale = 0.1;
+        function draw() {
+        background("white");
+        fruit.scale = fruit.scale + 0.01;
+        drawSprites();
+        }
+
+Modified code - var fruit = createSprite(200, 200);
+        fruit.setAnimation("apple");
+        fruit.scale = 0.1;
+        function draw() {
+        background("white");
+        fruit.scale = fruit.scale + 0.01;
+        if (fruit.scale > 2) {
+            fruit.setAnimation("pear");
+        }
+        drawSprites();
+        }
+
+Level - 6
+
+Practice using booleans and conditionals with these activities.
+
+Choose from the following activities:
+
+a) Boolean Expressions
+Change the sprite properties so that all of the boolean expressions evaluate to true.
+
+b) Dropped Soup
+Empty the soup bowl when it turns upside down.
+
+c) Alien Celebration
+Make the alien dance when the spaceship takes off.
+
+I Choose (A)
+
+Level - 7
+
+Use an if () statement to make the dinosaur turn into a pterodactyl when it reaches the sky.
+
+Run the code to see how it works.
+Add a conditional that detects when the dinosaur is in the sky.
+Set the sprite's animation to a pterodactyl when it reaches the sky.
+
+The first code - var backdrop = createSprite(200,200);
+        backdrop.setAnimation("sci_fi");
+        var dinosaur = createSprite(200, 350);
+        dinosaur.scale = 0.2;
+        dinosaur.setAnimation("tyrannosaurus");
+        function draw() {
+        dinosaur.y = dinosaur.y - 5;
+        drawSprites();
+        }
+
+Modified code - var backdrop = createSprite(200,200);
+        backdrop.setAnimation("sci_fi");
+        var dinosaur = createSprite(200, 350);
+        dinosaur.scale = 0.2;
+        dinosaur.setAnimation("tyrannosaurus");
+        function draw() {
+        dinosaur.y = dinosaur.y - 5;
+        if (dinosaur.y < 100) {
+            dinosaur.setAnimation("pterodactyl");
+        }
+        drawSprites();
+        }
+
+Level - 8
+
+Try out these challenges with conditionals.
+
+Choose from the following activities:
+
+a)New Block: Visible
+Learn how to make a sprite appear and disappear using the visible property
+
+b) Restart Sprites
+Use conditionals to wrap sprites back around to the other side of the screen.
+
+c) Never-Ending Fish Scene 1
+Use conditionals to create a never-ending fish scene!
+
+d) Never-Ending Fish Scene 2
+Use conditionals to continue creating a never-ending fish scene!
+
+e) Never-Ending Fish Scene 3
+Use conditionals to finish creating a never-ending fish scene!
+
+f) Sci-Fi Scene
+Use what you've learned so far to create a moving science fiction scene that changes when sprites are at certain locations on the screen.
+
+g) Animated Quote or Saying
+Use what you've learned so far to create an animated scene of a quote or a saying with moving sprites
+
+I Choose (A)
+
+Lesson - 16: Keyboard Input
+
+Level - 1
+
+See if we can predict how the keyDown() block works. We will not write any code.
+
+Read the program carefully.
+Make a prediction about what will happen when we press the space bar and write it in the box below. Be specific!
+Run the program.
+While the program is running, press the space bar on our keyboard.
+
+Ans: True will display when we press the space button.
+
+Level - 2
+
+This program uses the keyDown() block to detect whether a specific keys are being pressed down.
+
+Run the code and try pressing the "p" and "h" keys.
+Look inside the first two conditional statements to see how the code works.
+Add code to change the sprite to a different animal when the "r" key is pressed.
+   - Add a setAnimation() block inside the 3rd if () statement.
+   - Set the animation to the rabbit.
+
+The first code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("giraffe");
+        function draw() {
+        background("white");
+        if(keyDown("h")) {
+            sprite.setAnimation("hippo");
+        }
+        if(keyDown("p")) {
+            sprite.setAnimation("pig");
+        }
+        if(keyDown("r")) {
+
+        }
+        drawSprites();
+        }
+
+Modified code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("giraffe");
+        function draw() {
+        background("white");
+        if(keyDown("h")) {
+            sprite.setAnimation("hippo");
+        }
+        if(keyDown("p")) {
+            sprite.setAnimation("pig");
+        }
+        if(keyDown("r")) {
+            sprite.setAnimation("rabbit");
+        }
+        drawSprites();
+        }
+
+Level - 3
+
+We can change our sprite's position based on key presses in the same way we changed its animations.
+
+Add a conditional statement to check if the right arrow key has been pressed down.
+   - Add an if () statement inside your draw loop.
+Use the keyDown() to detect if the right arrow key has been pressed.
+   - Add code to move the sprite right if the right arrow is down.
+   - Add the counter pattern inside the if () statement to make the sprite move to the right.
+
+The first code - var bug = createSprite(200, 200);
+        bug.setAnimation("ladybug");
+        function draw() {
+        background("white");
+        drawSprites();
+        }
+
+Modified code - var bug = createSprite(200, 200);
+        bug.setAnimation("ladybug");
+        function draw() {
+        background("white");
+        if (keyDown("right")) {
+            bug.x = bug.x + 2;
+        }
+        drawSprites();
+        }
+
+Level - 4
+
+Let's make the gears spin only if the space key is being held down.
+
+Add code that will check if the space key is being pressed down.
+   - Add an if () statement in the draw loop.
+   - Use the keyDown() to detect if the space key is being pressed.
+Adjust the program so that the gears only rotate when the space key is pressed down.
+   - Move the three lines of code that makes the gears rotate with the counter pattern inside the if () statement.
+
+The first code - var blueGear = createSprite(100, 220);
+        blueGear.setAnimation("blue_gear");
+        var greenGear = createSprite(183, 298);
+        greenGear.setAnimation("green_gear");
+        var redGear = createSprite(185, 145);
+        redGear.setAnimation("red_gear");
+        function draw() {
+        background("white");
+        blueGear.rotation = blueGear.rotation - 1;
+        greenGear.rotation = greenGear.rotation + 1;
+        redGear.rotation = redGear.rotation + 1;
+        drawSprites();
+        }
+
+Modified code - var blueGear = createSprite(100, 220);
+        blueGear.setAnimation("blue_gear");
+        var greenGear = createSprite(183, 298);
+        greenGear.setAnimation("green_gear");
+        var redGear = createSprite(185, 145);
+        redGear.setAnimation("red_gear");
+        function draw() {
+        background("white");
+        if (keyDown("down")) {
+            blueGear.rotation = blueGear.rotation - 1;
+            greenGear.rotation = greenGear.rotation + 1;
+            redGear.rotation = redGear.rotation + 1;
+        }
+        drawSprites();
+        }
+
+Level - 5
+
+Practice keyboard input with these activities.
+
+Choose from the following activities:
+
+a) Fish With Arrows
+Make the fish move left only when the left arrow key is pressed.
+
+b) Debug Turtle Movement
+Find the bug that breaks the program when the turtle tries to move left.
+
+c)Debug Turtle Movement 2
+Debug why the turtle does not move at all and leaves after images.
+
+I Chooose (A)
+
+Level - 6
+
+We can use if () statements with the keyDown() to make a simple game that moves a sprite around the screen.
+
+Add four separate if () statements that will allow you to move the wing bot move in each direction.
+
+Add code to move the sprite left when the left arrow is pressed
+Add code to move the sprite right when the right arrow is pressed
+Add code to move the sprite up when the up arrow is pressed
+Add code to move the sprite down when the down arrow is pressed
+
+The first code - var backdrop = createSprite(200,200);
+        backdrop.setAnimation("rainbow");
+        var flyer = createSprite(200,200);
+        flyer.setAnimation("wing_bot");
+        function draw() {
+        drawSprites();
+        }
+
+Modified code - var backdrop = createSprite(200,200);
+        backdrop.setAnimation("rainbow");
+        var flyer = createSprite(200,200);
+        flyer.setAnimation("wing_bot");
+        function draw() {
+        if (keyDown("left")) {
+        flyer.x = flyer.x - 2;
+        }
+        if (keyDown("right")) {
+        flyer.x = flyer.x + 2;
+        }
+        if (keyDown("up")) {
+        flyer.y = flyer.y - 2;
+        }
+        if (keyDown("down")) {
+        flyer.y = flyer.y + 2;
+        }
+        drawSprites();
+        }
+
+Level - 7
+
+Try out these new blocks and challenges with keyboard input.
+
+Choose from the following activities:
+
+a) keyWentDown: Click Counter
+Count how many times someone has clicked the space bar, and learn a new block.
+
+b)Changing Animation
+Use a separate image for each direction of movement.
+
+c) Speed Boost!
+Learn how to use nested if statements and key presses to give your sprites a boost in speed!
+
+d) Play Music
+Use what you've learned so far to make your favorite instruments make music when keys are pressed!
+
+e) Simple Game
+Use what you've learned so far to make a simple version of your favorite game when keys are pressed!
+
+I Choose (A)
+
+Lesson - 18: Project - Interactive Card
+
+Level - 3
+
+Before beginning this project, you should have already completed the Interactive Card Planning activity, and you'll want to have that paper with you as you develop your program. Preparation is one of the most important elements of successfully creating a program!
+
+Refer to your planning activity sheet to help you lay out the shapes that will become the background to your card.
+
+First, figure out what the lowest layer in your image is (this should use the background block) and add it to the very top of the draw loop.
+Next, layer each additional drawing block in the order you want them to appear in the stack.
+Finally, add a comment to the top of this section of code to describe what it does, and if you have any particularly complicated chunks of code within (such as code to draw a tree or a house), add a descriptive comment to that as well.
+
+The code - function draw() {
+        background("black");
+        fill("yellow");
+        rect(100, 100, 200, 200);
+        }
+
+Level - 4
+
+Now that you have the more static elements of your card laid out, it's time to add the Sprites. Your Sprites should provide the primary animations and interactions for your card - so feel free to get creative here and have fun.
+
+Check out the Sprites table in your project guide. For each Sprite in your table:
+
+Initialize the Sprite at the top of your program with createSprite().
+Find or create the image(s) for the Sprite in the Animation tab and then set them with setAnimation().
+Inside the draw() loop update any Sprite properties that we will be constantly animating (we'll deal with conditionals in a minute).
+
+The code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("animalhead_antelope_1");
+        function draw() {
+        background("black");
+        fill("yellow");
+        rect(100, 100, 200, 200);
+        drawSprites();
+        }
+
+Level - 5
+
+We've got a background, we've got Sprites, now it's time to give your user something to do!
+
+On the interactions table from your project guide, find all of the interactions that rely on user input (key presses and mouse movements).
+For each of those interactions:
+
+Add an if() block (or if()/else block if you need a fallback action) inside the draw() loop.
+Add the appropriate input block for your condition (such as keyDown() or mouseDown()).
+Add the necessary actions inside the if() block.
+
+The code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("animalhead_antelope_1");
+        function draw() {
+        background("black");
+        fill("yellow");
+        rect(100, 100, 200, 200);
+        if (keyDown("space")) {
+            sprite.x = sprite.x + 5;
+        } else {
+            sprite.x = sprite.x - 5;
+        }
+        drawSprites();
+        }
+
+Level - 5
+
+The surprise in your card comes from conditionals that don't directly respond to user input, but to some other element of your card.
+This could be triggered by a variable that gets updated as the user interacts with your card, or a Sprite moving into a certain part of the screen.
+
+For each of the remaining items on your interactions table from your project guide:
+
+Add an if() block (or if()/else block if you need a fallback action) inside the draw loop.
+Add the appropriate Boolean comparison block to the condition (eg. <, >, or ==).
+Add the necessary actions inside the if() block.
+
+The code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("animalhead_antelope_1");
+        function draw() {
+        background("black");
+        fill("yellow");
+        rect(100, 100, 200, 200);
+        if (keyDown("leftButton")) {
+            sprite.x = sprite.x + 5;
+        } else {
+            sprite.x = sprite.x - 5;
+        }
+        drawSprites();
+        }
+
+Level - 6
+
+The surprise in your card comes from conditionals that don't directly respond to user input, but to some other element of your card.
+This could be triggered by a variable that gets updated as the user interacts with your card, or a Sprite moving into a certain part of the screen.
+
+For each of the remaining items on your interactions table from your project guide:
+
+Add an if() block (or if()/else block if you need a fallback action) inside the draw loop.
+Add the appropriate Boolean comparison block to the condition (eg. <, >, or ==).
+Add the necessary actions inside the if() block.
+
+The code - var sprite = createSprite(200, 200);
+        sprite.setAnimation("animalhead_antelope_1");
+        function draw() {
+        background("black");
+        fill("yellow");
+        rect(100, 100, 200, 200);
+        if (sprite.x > 10) {
+            sprite.x = sprite.x + 5;
+        } else {
+            sprite.x = sprite.x - 5;
+        }
+        drawSprites();
+        }
+
+Level - 7
+
+Now's our chance to put some finishing touches on our card.
+We've included some new blocks that you haven't seen before, so take some time to look around and try out some new blocks.
+
+Check all of the requirements in your project guide and make sure you've included everything needed.
+Consider adding any of the following to finish up your card:
+   - Text
+   - Additional images for your sprites
+   - Subtle animation in the background
+   - Sound effects (Can you figure out how to do this?)
+   - More ways for a user to interact with your card
+
+Lesson - 19: Velocity
+
+Level - 1
+
+We've learned about the counter pattern - now let's compare that to the new velocity block.
+
+Look at the lines of code that make the fly and mouse sprites move.
+   - Line 3 makes the fly move.
+   - Line 15 makes the mouse move.
+What do think will happen when we press run? How do think the two lines different lines of code will make each sprite move?
+Write your prediction in the text box below.
+
+Ans: The animation will move.
+
+Level - 2
+
+One way to move sprites in Game Lab is with the counter pattern. For example  moves a sprite by 1 pixel each frame of the draw loop. This pattern is so common that sprites have a velocityX property that does this for you.
+
+Use the new velocityX block to make the sprite move!
+
+Add the new movement block outside of the draw loop.
+   - Drag a velocityX block directly below where your sprite is created. ( Show me where )
+   - Make sure to replace "sprite" with "fish" so the block says fish.velocityX
+Assign the velocity a value of 1.
+   - The block should now say fish.velocityX = 1;
+Run the code. What happens?
+Give the velocity a different value and run the code again. What's changing?
+
+The code - var fish = createSprite(50, 150);
+        fish.setAnimation("orange_fish");
+        //1) Add the new movement block outside of the draw loop.
+        fish.velocityX = 1;
+        //2) Assign the velocity a value of 1.
+        function draw() {
+        // draw the background
+        background(rgb(0,50,250));
+        fill(rgb(250,250,250, 80));
+        noStroke();
+        ellipse(60, 20, 50, 50);
+        ellipse(150, 100, 50, 50);
+        ellipse(300, 130, 50, 50);
+        ellipse(250, 200, 50, 50);
+        ellipse(20, 250, 50, 50);
+        ellipse(370, 330, 50, 50);
+        fill(rgb(219, 208, 125));
+        noStroke();
+        ellipse(100, 400, 300, 100);
+        ellipse(300, 400, 300, 75);
+        drawSprites();
+        }
+
+Level - 3
+
+Here is a feather sprite that should be floating down the screen.
+If velocityX makes a sprite move to the right, can we find the block that will make the feather move down?
+
+Find the block that will make the feather sprite go down the screen
+Use that block outside of the draw loop. ( Show me where )
+Give the block a value to make the feather move down the screen.
+
+The code - //1) Find the block that will make the feather sprite go down the screen
+        var feather = createSprite(200, 50);
+        feather.setAnimation("feather");
+        //2) Use that block outside of the draw loop.
+        feather.velocityY = 2;
+        //3) Give the block a value to make the feather move down the screen.
+        function draw() {
+        background("skyblue");
+        drawSprites();
+        }
+
+Level - 4
+
+We can use rotationSpeed to make our sprites spin.
+If we want our sun to rotate by two degrees each time it's drawn, you can use sun.rotationSpeed = 2; outside of the draw loop, after you create your sprite.
+
+Make the sun rotate by 3 degrees each time it's drawn.
+   - Drag a rotationSpeed block outside of the draw loop. ( Show me where )
+   - Give the rotationSpeed a value of 3.
+
+The code - var sun = createSprite(200, 200);
+        sun.setAnimation("sun");
+        //1) Make the sun rotate by 3 degrees each time it's drawn.
+        function draw() {
+        background("blue");
+        sun.rotationSpeed = 10;
+        drawSprites();
+        }
+
+Level - 5
+
+We used rotationSpeed outside the draw loop to make your sprite rotate when your program started.
+We can also use rotationSpeed inside the draw loop to change the speed of the sprite during the game. For example, a sprite can start rotating when the user presses the space bar, and it will keep rotating until it's told to stop.
+
+Look at the conditional statement inside the draw loop that checks if the space bar has been pressed. ( Show me where )
+Make the color wheel start spinning when the user presses the space bar.
+   - Drag a rotationSpeed block inside the if () statement and set its value.
+
+The code - var wheel = createSprite(200, 200);
+        wheel.setAnimation("wheel");
+        function draw() {
+        background("blue");
+        if (keyWentDown("space")) {
+            //2) Make the color wheel start spinning when the user presses the space bar.
+            wheel.rotationSpeed = 5;
+        }
+        drawSprites();
+        }
+
+Level - 6
+
+One advantage to using the velocity blocks inside conditionals (if () blocks) is that your sprite keeps moving, even after the condition stops being true.
+For example, you only had to press a key once to start the color wheel spinning, and it kept spinning forever.
+The code below uses if statements to make a fish sprite move in different directions.
+
+Look at the if () statements that check the sprite's position and set its velocity.
+With your partner, discuss what you think the code will do, and write your answer below.
+Once you have submitted your answer, run the code.
+
+Ans: If the fish.x is less than 0 it moves to the right and if it greater than 400 it moves to left.
+
+Level - 7
+
+This ball bounces back when it hits the bottom of the screen. Can you make it bounce back when it hits the top of the screen?
+
+Run the code and see how it works.
+Look at how conditionals and velocity are used to make the ball bounce at the bottom of the screen.
+Add code to make the ball bounce at the top of the screen.
+   - Drag out another if () statement inside the draw loop.
+   - Check if the ball has reached the top of the screen.
+   - Drag out a velocityY block inside this if () statement and give it a value that will send the ball down the screen.
+
+
+The code - var field = createSprite(200,200);
+        field.setAnimation("field");
+        var ball = createSprite(200, 50);
+        ball.setAnimation("ball");
+        ball.scale = 0.2;
+        ball.velocityY = 5;
+        function draw() {
+        //2) Look at how conditionals and velocity are used to make the ball bounce at the bottom of the screen.
+        if (ball.y > 380) {
+            ball.velocityY = -5;
+        }
+        if (ball.y < 20) {
+            ball.velocityY = 5;
+        }
+        //3) Add code to make the ball bounce at the top of the screen.
+        drawSprites();
+        }
+
+Level - 8
+
+Practice using the velocity blocks with these activities.
+
+Choose from the following activities:
+
+a) Controlling Speed
+Make the robot fly once the space bar has been pressed at least once.
+
+b) Paint Brush
+Dip the paint brush in the paint.
+
+c) Magical Star
+Help the wizard cast a spell that moves the star across the screen!
+
+I Choose (A)
+
+Level - 9
+
+The code below should make the fish start moving right once you press the right-arrow, and then it should continually swim back and forth.
+We should use conditional statements and the velocity block to make the fish swim.
+
+Look at the three conditional statements inside the draw loop.
+   - Use a the correct block inside each conditional statement to make the three following movements:
+   - If the user presses the right arrow key, move the fish to the right.
+   - If the fish gets to the right-hand side of the screen, move the fish to the left.
+   - If the fish gets to the left-hand side of the screen, move the fish to the right.
+The fish should always be facing the same direction it's moving, so you will also need to update the fish's animation inside each of the conditional statements.
+
+The code - var fish = createSprite(200, 200);
+        fish.setAnimation("fishR");
+        function draw() {
+        background("blue");
+        //2) Use a the correct block inside each conditional statement to make the three following movements:
+        //If the user presses the right arrow key, move the fish to the right.
+        if (keyWentDown("right")) {
+        fish.velocityX = 5;
+        }
+        //If the fish gets to the right-hand side of the screen, move the fish to the left.
+        if (fish.x > 400) {
+        fish.velocityx = -5;
+        }
+        //If the fish gets to the left-hand side of the screen, move the fish to the right.
+        if (fish.x < 0) {
+        fish.velocityX = 5;
+        }
+        //3) The fish should always be facing the same direction it's moving, so you will also need to
+        //update the fish's animation inside each of the conditional statements.
+        // Draw the fish.
+        drawSprites();
+        }
+
+Level - 10
+
+Try out these new blocks and challenges with velocity.
+
+Choose from the following activities:
+
+a) Changing Course
+Can you change velocities four separate times?
+
+b) Burst Effect
+Create an animation that simulates an object "bursting" in random directions from the center of the screen.
+
+c) And ... Action!
+Use what you've learned so far to create a scene from a book, movie, or TV show that comes to life and sprites start moving when a key or the mouse is pressed!
+
+d) Let's Race!
+Use what you've learned so far to create a scene where sprites are racing around the screen with velocities that change when certain keys are pressed!
+
+I Chooose (A)
+
+Lesson - 20: Collision Detection
+
+Level - 2
+
+Computers use math to figure out whether two things are touching. Look at the math on lines 17-18 of this program to see how the sprite properties are compared with their width to see whether they are touching.
+
+Read the if () statements inside the draw loop and find the different sprite properties and how they are compared.
+Discuss the code with your partner.
+Why does the code only use the width and x properties, and not the height and y properties?
+Would you want to write this code every time you checked whether something was touching?
+
+Ans: By nested if.
+
+Level - 3
+
+Writing out the math each time you want to check whether two sprites are touching can take a while, so a programmer created the isTouching() block, which can check whether one sprite is touching another sprite (the target).
+The computer is still doing the same math as in the previous program, but you don't have to worry about it because another programmer already did that work.
+
+Check if the bunny is touching the dinner.
+   - Drag the isTouching() block into the if () statement. ( Show me where )
+   - Don't forget to change the "sprite" to "bunny" and the "target" to "dinner".
+
+The code - // Create the sprites and start them moving
+        var backdrop = createSprite(200,200);
+        backdrop.setAnimation("meadow");
+        var bunny = createSprite(50, 300);
+        bunny.setAnimation("bunny");
+        bunny.velocityX = 3;
+        var robot = createSprite(400, 320);
+        robot.setAnimation("robot");
+        robot.scale = 0.2;
+        robot.velocityX = -3;
+        var dinner = createSprite(370, 350);
+        dinner.setAnimation("stew");
+        dinner.velocityX = -3;
+        function draw() {
+        //1) Check if the bunny is touching the dinner.
+        if (bunny.isTouching(dinner)) {
+            // stop everything and change to empty bowl
+            bunny.velocityX = 0;
+            dinner.velocityX = 0;
+            robot.velocityX = 0;
+            dinner.setAnimation("bowl");
+        }
+        drawSprites();
+        }
+
+Level - 4
+
+In this program, the blender should only "turn on" when the apple touches it.
+
+Check if the apple is touching the blender.
+   - Drag out an if () statement inside the draw loop.
+   - Add an isTouching() block into the if () statement.
+   - Change the "sprite" and the "target" to the correct sprite names.
+Make the blender shake only when the apple is touching it.
+   - Move the line of code that shakes the blender into the if () statement.
+   - Optional: You may also want to hide the apple when it touches the blender.
+
+The code - // create the sprites
+        var apple = createSprite(200, -50);
+        apple.setAnimation("apple");
+        apple.velocityY = 5;
+        var blender = createSprite(200, 330);
+        blender.setAnimation("blender");
+        function draw() {
+        //1) Check if the apple is touching the blender.
+        //2) Make the blender shake only when the apple is touching it.
+        //make the background
+        background("skyblue");
+        strokeWeight(0);
+        fill("sienna");
+        rect(0, 340, 400, 60);
+        if (apple.isTouching(blender)) {
+            blender.x = 200 + randomNumber(-5,5);
+            apple.visible = 0;
+        }
+        drawSprites();
+        }
+
+Level - 5
+
+The balloon is popping before the tack touches it.
+We can use the debug block to get more information about the bug in the program!
+
+Run the code and use the arrow keys to move the tack to pop the balloon.
+Change the code on line 4 from false to true.
+   - The line should now be balloon.debug = true;
+Debug the tack sprite.
+   - Drag out a new debug block.
+   - Set the tack sprite's debug property to true.
+Run the code again, then discuss with your partner why the balloon is popping early.
+Resize the balloon animation to fix this!
+   - Go into the animation tab.
+   - Crop the balloon image using the "crop" tool on the right side of the screen.
+Run the code again to see if the issue is fixed!
+
+The code - var balloon = createSprite(200,200);
+        balloon.setAnimation("balloon");
+        //2) Change the code on line 4 from false to true.
+        balloon.debug = True;
+        //3) Debug the tack sprite.
+        var tack = createSprite(350, 50);
+        tack.setAnimation("tack");
+        function draw() {
+        background("gray");
+        // check if tack is touching balloon
+        if (balloon.isTouching(tack)) {
+            // replace balloon image
+            balloon.setAnimation("popped");
+        }
+        // make tack move with arrow keys
+        if (keyDown("up")) {
+            tack.y = tack.y - 1;
+        }
+        if (keyDown("down")) {
+            tack.y = tack.y + 1;
+        }
+        if (keyDown("left")) {
+            tack.x = tack.x - 1;
+        }
+        if (keyDown("right")) {
+            tack.x = tack.x + 1;
+        }
+        drawSprites();
+        }
+
+Level - 6
+
+Practice using collision detection with these activities.
+
+Choose from the following activities:
+
+a) Debug: isTouching
+Figure out why this code is not detecting the collision, even though it calls isTouching.
+
+b) Circle Colliders
+Improve collisions for sprites with circular animations.
+
+c) Scared Mouse
+Use an isTouching block to make the mouse run away!
+
+I Choose (A)
+
+Level - 7
+
+In this program, the horse should turn into a unicorn when it touches the rainbow.
+
+Change the horse into a unicorn when the rainbow touches it.
+
+The code - // create the sprites
+        var horse = createSprite(200, 150);
+        horse.setAnimation("horse");
+        var rainbow = createSprite(400, 370);
+        rainbow.setAnimation("rainbow");
+        rainbow.velocityX = -5;
+        rainbow.velocityY = -5;
+        rainbow.rotateToDirection = true;
+        function draw() {
+        // draw the background
+        background("skyblue");
+        if (horse.isTouching(rainbow)) {
+            horse.setAnimation("unicorn");
+        }
+        //1) Change the horse into a unicorn when the rainbow touches it.
+        drawSprites();
+        }
+
+Level - 8
+
+Try out these new blocks and challenges with collisions.
+
+Choose from the following activities:
+
+a) Collider at an Angle
+Improve collisions for sprites with angled animations.
+
+b) Debug: Add Points on Collision
+Figure out why this code is adding way more points than we want it to
+
+c) If-Else Challenge
+Use an If-Else statement to make the emoji either happy or sad!
+
+d) Food Combos!
+Use what you've learned so far to create an animation of two foods that combine into a new, different food when they touch!
+
+e) Let's Play!
+Use what you've learned so far to create an animation of your favorite sport
+
+I Choose (A)
+
+Lesson - 21: Side Scroller
+
+Level - 2
+
+The sample game had a simple background of a blue sky, a white oval cloud, and a brown ground.
+We can choose to make your background as simple or complicated as you want.
+
+Find the code comment // BACKGROUND
+Use the drawing tools to draw your background.
+Run the program to test the background.
+
+Lesson 22: Complex Sprite Movement
+
+Level - 1
+
+Using the counter pattern with a sprite's x and y property makes a sprite move smoothly across the screen. In this program the counter pattern is being used with the velocityX property instead.
+
+What do you think will happen when the code is run? Why?
+Once you're ready you can run the code to find out.
+
+Ans: The velocity will increase at a time.
+
+Level - 2
+
+This program already makes a car move across the screen, but it's going very slowly.
+By using the velocityX property with the counter pattern, you can change the sprite's speed during the program.
+
+Add code to make the car speed up.
+   - Drag out a velocityX block inside the draw loop. ( Show me where )
+   - Use the counter pattern with the velocityX property like this:
+   - Play with the value in the counter pattern to find one that speeds up the car at a pace you like.
+
+The code - var car = createSprite(50, 200);
+        car.setAnimation("red_car");
+        function draw() {
+        background("gray");
+        //1) Add code to make the car speed up.
+        car.velocityX = car.velocityX + 0.2;
+        drawSprites();
+        }
+
+
+Level - 3
+
+In this program, the rock should speed up as it falls down the screen.
+
+Add code to make the rock speed up as it falls.
+   - Drag out a velocityY block inside the draw loop. ( Show me where )
+   - Use the counter pattern with the velocityY property
+   - Play with the value in the counter pattern to find one that speeds up the rock as it falls down.
+
+The code - var rock = createSprite(200, 50);
+        rock.setAnimation("rock");
+        function draw() {
+        background("skyblue");
+        rock.velocityY = rock.velocityY + 0.5;
+        //1) Add code to make the rock speed up as it falls.
+        drawSprites();
+        }
+
+Level - 4
+
+The car is going to run into the water! You'll need to use the counter pattern to slow it down.
+
+Add code to slow the car down before it goes into the water.
+   - Drag out a velocityX block inside the draw loop.
+   - Use the counter pattern with a velocityX block that will decrease by 0.25 as it moves across the screen.
+
+The code - var car = createSprite(50, 200);
+        car.setAnimation("blue_car");
+        noStroke();
+        function draw() {
+        background("burlywood");
+        fill("blue");
+        rect(350,0,100,400);
+        car.velocityX =  10;
+        //1) Add code to slow the car down before it goes into the water.
+        if (car.x > 350) {
+            car.velocityX = car.velocityX * .25;
+        }
+        drawSprites();
+        }
+
+Level - 5
+
+Practice using the new ways to move sprites.
+
+Choose from the following activities:
+
+a) Rising Bubble
+Make the bubble get faster as it moves higher.
+
+b) Slow down and reverse
+Help the mouse avoid the watchful cat.
+
+c) Floating Balloon
+Change the direction of the falling balloon to make it float away.
+
+I Choose (B)
+
+Level - 6
+
+Uh oh! The rock is thrown in the air but it never falls back down!
+
+Add code to make the rock slow down and then fall.
+Try different numbers in your counter pattern to see what you like the best.
+
+The code - var rock = createSprite(200, 350);
+        rock.setAnimation("rock");
+        rock.velocityY =  -10;
+        rock.rotationSpeed = 2;
+        function draw() {
+        background("skyblue");
+        //1) Add code to make the rock slow down and then fall.
+        if (keyDown("down")) {
+            rock.velocityY = rock.velocityY + 5;
+        }
+        drawSprites();
+        }
+
+Level - 7
+
+Try out these new blocks and challenges with velocity and the counter pattern.
+
+Choose from the following activities:
+
+a) Curve
+Make the plane curve to avoid the two spikes.
+
+b) Deceleration
+Make the car slow to a halt before it goes past the top of the screen.
+
+c) Jumping Alien
+Make the alien jump and land whenever the space bar is pressed.
+
+d) Who Will Win?
+Use what you've learned so far to race the cars and slow them down after they reach the finish line.
+
+e) Racing Spaceships
+Use what you've learned so far to race the spaceships and slow them down after they reach the asteroid field.
+
+f) Fastest Animal!
+Use what you've learned so far to race the animals and slow them down after they reach the lake.
+
+I Choose (A)
+
+Lesson - 23: Collisions
+
+Level - 2
+
+Here's a similar program, but it doesn't work yet.
+
+Try out our plan from level 1 to program the giraffe to push the monkey off the screen.
+How do I get the giraffe to push the monkey off the screen?
+
+The code - // Create giraffe sprite
+        var giraffe = createSprite(30,200);
+        giraffe.setAnimation("giraffe");
+        giraffe.velocityX = 1;
+        giraffe.scale = 0.3;
+        // Create monkey sprite
+        var monkey = createSprite(300,200);
+        monkey.setAnimation("monkey");
+        monkey.scale = 0.3;
+        function draw(){
+        // Draw background
+        background("white");
+        if (monkey.isTouching(giraffe)) {
+            monkey.velocityX = 1;
+        }
+        //1) Program the giraffe to push the monkey off the screen.
+        drawSprites();
+        }
+
+Level - 3
+
+Now the elephant should push the hippo off the screen. Notice that the elephant moves at a random Y velocity each time the program runs.
+
+Run the program to see how it works.
+Add code to make the elephant push the hippo off the screen.
+   - Drag out an if () statement inside the draw loop.
+   - Use an isTouching() block with the if () statement to detect when the elephant is touching the hippo.
+   - Inside the if () statement, assign the hippo's velocityY to match the elephant's velocityY.
+
+The code - // Create elephant sprite
+        var elephant = createSprite(200, 400);
+        elephant.setAnimation("elephant");
+        elephant.scale = 0.5;
+        elephant.velocityY = randomNumber(-3,-1);
+        // Create hippo sprite
+        var hippo = createSprite(200,100);
+        hippo.setAnimation("hippo");
+        hippo.scale = 0.5;
+        function draw(){
+        // Draw background
+        background("white");
+        if (hippo.isTouching(elephant)) {
+            hippo.velocityY = -2;
+        }
+        //2) Add code to make the elephant push the hippo off the screen.
+        drawSprites();
+        }
+
+Level - 4
+
+This type of sprite interaction from the previous levels is so common that there's a block for it: sprite.displace().
+Someone tried to use the sprite.displace() block to make the elephant push the hippo, but there is a bug.
+
+Run the program to see what's happening.
+Take a look at the new block and how it is being used.
+Fix the block so that the elephant is pushing the hippo.
+
+The code - // Create elephant sprite
+        var elephant = createSprite(200, 350);
+        elephant.setAnimation("elephant");
+        elephant.scale = 0.5;
+        elephant.velocityY = randomNumber(-3,-1);
+        // Create hippo sprite
+        var hippo = createSprite(200,50);
+        hippo.setAnimation("hippo");
+        hippo.scale = 0.5;
+        hippo.velocityY = randomNumber(1,3);
+        function draw(){
+        // Draw background
+        background("white");
+        //2) Take a look at the new block and how it is being used.
+        //3) Fix the block so that the elephant is pushing the hippo.
+        elephant.displace(hippo);
+        drawSprites();
+        }
+
+Level - 5
+
+Three new types of sprite interactions have been added to the toolbox, sprite.collide(), sprite.bounce(), and sprite.bounceOff().
+How do you think they'll affect the sprites?
+
+Switch out the displace block for the new blocks, one at a time to see what each one does. ( Show me where )
+   - Hint: If you're having trouble doing this with blocks then switch over to text mode.
+Discuss with a neighbor: What is the difference between the four different sprite interactions? What do you think the purpose of each block is?
+
+The code - var parrot = createSprite(50,200);
+        parrot.setAnimation("parrot");
+        parrot.velocityX = 2;
+        parrot.scale = 0.3;
+        var penguin = createSprite(350,200);
+        penguin.setAnimation("penguin");
+        penguin.velocityX = -2;
+        penguin.scale = 0.3;
+        function draw() {
+        //1) Switch out the displace block for the new blocks, one at a time 
+        // to see what each one does.
+        penguin.displace(parrot);
+        background("white");
+        drawSprites();
+        }
+
+Level - 6
+
+Practice using the new collisions blocks.
+
+Choose from the following activities:
+
+a) Collision Types
+Make the basketball interact with the wooden floor.
+
+b) Collision Types
+Make the arrow stop at the apple.
+
+c) Collision Types
+Make one cart push the next.
+
+d) Collision Types
+Help her push the suitcase.
+
+I Choose (A)
+
+Level - 7
+
+We've now seen four different types of sprite interactions. We'll need them all for this challenge.
+
+For each pair of animals, choose the sprite interaction that matches the target image on the right.
+
+The code - // create sprites
+        var giraffe = createSprite(50, 50);
+        giraffe.setAnimation("giraffe");
+        giraffe.velocityX = 3;
+        var hippo = createSprite(50, 150);
+        hippo.setAnimation("hippo");
+        hippo.velocityX = 3;
+        var rabbit = createSprite(50, 250);
+        rabbit.setAnimation("rabbit");
+        rabbit.velocityX = 3;
+        var snake = createSprite(50, 350);
+        snake.setAnimation("snake");
+        snake.velocityX = 3;
+        var parrot = createSprite(350, 50);
+        parrot.setAnimation("parrot");
+        parrot.velocityX = -3;
+        var elephant = createSprite(350, 150);
+        elephant.setAnimation("elephant");
+        elephant.velocityX = -3;
+        var monkey = createSprite(350, 250);
+        monkey.setAnimation("monkey");
+        monkey.velocityX = -3;
+        var pig = createSprite(350, 350);
+        pig.setAnimation("pig");
+        pig.velocityX = -3;
+        function draw() {
+        background("lightblue");
+        snake.bounceOff(pig);
+        parrot.bounce(giraffe);
+        hippo.displace(elephant);
+        monkey.displace(rabbit);
+        //1) For each pair of animals, choose the sprite interaction 
+        // that matches the target image.
+        drawSprites();
+        }
+
+Level - 8
+
+Try out these new blocks and challenges with collisions.
+
+Choose from the following activities:
+
+a) Debug Colliders
+Set a sprite's debug property to understand how it bounces.
+
+b) Collider Shape
+Learn how to change how sprites interact based on their collider shape.
+
+c) Bounciness
+Control how much sprites bounce when they interact.
+
+d) Collect The Sprites
+Use what you've learned so far to create an animated scene with one sprite "collecting" other sprites!
+
+e) Deflect The Sprites
+Use what you've learned so far to create an animated scene with one sprite "deflecting" other moving sprites!
+
+I Choose (A)
+
+Lesson - 24: Mini-Project - Flyer Game
+
+Level - 2
+
+First create the sprites you will use in your program. The player sprite has already been created for you, but you can change its animation.
+
+We'll need at least 4 sprites: a player (the flyer), a target (the coin), and two obstacles (the rocks). You can change their animations to anything you want.
+
+Go to the animation tab and make sure that you have the images that you want.
+   - The flyer, coin and rock are already there, but you can use whatever images you want.
+Find the code comment //GAME SETUP.
+Create three more sprites: the target and two obstacles.
+Set each sprite to the animation you chose for it.
+Scale each one to the size you want.
+Place them where you want them to be on (or off) the screen.
+   - In the sample game, the obstacles and coin were placed randomly, but you don't need to do that yet.
+Set the starting velocities of the obstacles. Use the x velocity to move left and right, or use the y velocity to move up and down.
+Test your program. The player and target should be on the screen, and the obstacles should start off screen and move across the screen from left to right and up to down.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function draw() {
+        background("lightblue");
+        // FALLING
+        // LOOPING
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        // decrease the x velocity when user clicks "left"
+        // increase the x velocity when the user clicks "right"
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        // make the obstacles push the player
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level - 3
+
+If the user doesn't press any keys, the player sprite should fall.
+
+Find the code comment // FALLING.
+Use the counter pattern to with the player sprite's velocityY to make the flyer fall.
+Test your code to make sure that it works.
+   - The sprite should fall faster as it goes down the screen.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        // decrease the x velocity when user clicks "left"
+        // increase the x velocity when the user clicks "right"
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        // make the obstacles push the player
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level - 4
+
+Next, the player sprite needs to jump when the user presses the "up" arrow.
+
+Find the code comment // PLAYER CONTROLS
+Add a conditional (if() block) that checks whether the user is pressing the "up" arrow.
+Add code inside the conditional that will change the sprite's velocity to move up if the "up" arrow is pressed.
+Test your code to see whether it works.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        if (keyDown("up")) {
+            player.velocityY = -5;
+        }
+        // decrease the x velocity when user clicks "left"
+        if (keyDown("left")) {
+            player.velocityX = -5;
+        }
+        // increase the x velocity when the user clicks "right"
+        if (keyDown("right")) {
+            player.velocityX = 5;
+        }
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        // make the obstacles push the player
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level - 5
+
+The flyer should also be able to float left and right.
+
+Find the code comment //PLAYER CONTROL
+Add a conditional that decreases the sprite's x velocity when the "left" arrow is pressed.
+Add a conditional that increases the sprite's x velocity when the "right" arrow is pressed.
+   - Hint: Your code should use a counter pattern and the velocityX block.
+Test your code to make sure it works.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        if (keyDown("up")) {
+            player.velocityY = -5;
+        }
+        // decrease the x velocity when user clicks "left"
+        if (keyDown("left")) {
+            player.velocityX = -5;
+        }
+        // increase the x velocity when the user clicks "right"
+        if (keyDown("right")) {
+            player.velocityX = 5;
+        }
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        // make the obstacles push the player
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level - 6
+
+When the obstacles move off the screen, they should loop back to the other side, at a random position.
+
+Find the code comment // LOOPING
+Add a conditional that checks the horizontal obstacle's x property to see whether it has moved off the screen.
+If it has moved off the screen...
+   - Reset its x property to "loop" it back to the other side of the screen
+   - Set its y property to a random number between 50 and 350.
+   - Test your code to make sure the first obstacle loops.
+Add a conditional that checks the vertical obstacle's y property to see whether it has moved off the screen.
+   - If it has moved off the screen...
+   - Reset its y property to "loop" it back to the other side of the screen
+   - Set its x property to a random number between 50 and 350.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function reset() {
+            player.x = 200;
+            player.y = 100;
+        }
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        if (player.x > 350 && player.x < 50) {
+            player.setCollider("circle", 0, 0, 40);
+            reset();
+        }
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        if (keyDown("up")) {
+            player.velocityY = -5;
+        }
+        // decrease the x velocity when user clicks "left"
+        if (keyDown("left")) {
+            player.velocityX = -5;
+        }
+        // increase the x velocity when the user clicks "right"
+        if (keyDown("right")) {
+            player.velocityX = 5;
+        }
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        // make the obstacles push the player
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level -  7
+
+When your character touches the coin you should reset it somewhere on the screen, and the obstacles should push the player across the screen.
+
+Find the code comment SPRITE INTERACTIONS and read the comments in that section.
+Create a conditional that checks whether the player is touching the target, and moves the target to the random place if it's true.
+Create two new collisions that make the two obstacles push the player across the screen.
+Test your code to make sure it works.
+
+The code - // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function reset() {
+            player.x = 200;
+            player.y = 100;
+        }
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        if (player.x > 350 && player.x < 50) {
+            player.setCollider("circle", 0, 0, 40);
+            reset();
+        }
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        if (keyDown("up")) {
+            player.velocityY = -5;
+        }
+        // decrease the x velocity when user clicks "left"
+        if (keyDown("left")) {
+            player.velocityX = -5;
+        }
+        // increase the x velocity when the user clicks "right"
+        if (keyDown("right")) {
+            player.velocityX = 5;
+        }
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        if (player.isTouching(target)) {
+            target.x = randomNumber(50, 350);
+            target.y = randomNumber(50, 35);
+        }
+        
+        // make the obstacles push the player
+        if (obstacle1.isTouching(player)) {
+            obstacle1.displace(player);
+        }
+        if (obstacle2.isTouching(player)) {
+            obstacle2.displace(player);
+        }
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Level - 8
+
+Test your game to make sure it has everything it needs.
+
+Play your game several times.
+Read over your project guide and check that you have followed your plan.
+Make any last changes.
+
+The code -  // GAME SETUP
+        // create player, target, and obstacles
+        var target = createSprite(320, 360);
+        target.setAnimation("coin");
+        var obstacle1 = createSprite(0, 80);
+        obstacle1.setAnimation("rock");
+        var obstacle2 = createSprite(320, 0);
+        obstacle2.setAnimation("rock");
+        var player = createSprite(200, 100);
+        player.setAnimation("fly_bot");
+        player.scale = 0.8;
+        obstacle1.velocityX = 5;
+        obstacle2.velocityY = 5;
+        function reset() {
+            player.x = 200;
+            player.y = 100;
+        }
+        function draw() {
+        background("lightblue");
+        // FALLING
+        player.velocityY = 10;
+        // LOOPING
+        if (player.x > 350 && player.x < 50) {
+            player.setCollider("circle", 0, 0, 40);
+            reset();
+        }
+        // PLAYER CONTROLS
+        // change the y velocity when the user clicks "up"
+        if (keyDown("up")) {
+            player.velocityY = -5;
+        }
+        // decrease the x velocity when user clicks "left"
+        if (keyDown("left")) {
+            player.velocityX = -5;
+        }
+        // increase the x velocity when the user clicks "right"
+        if (keyDown("right")) {
+            player.velocityX = 5;
+        }
+        // SPRITE INTERACTIONS
+        // reset the coin when the player touches it
+        if (player.isTouching(target)) {
+            target.x = randomNumber(50, 350);
+            target.y = randomNumber(50, 35);
+        }
+        
+        // make the obstacles push the player
+        if (obstacle1.isTouching(player)) {
+            obstacle1.displace(player);
+        }
+        if (obstacle2.isTouching(player)) {
+            obstacle2.displace(player);
+        }
+        // DRAW SPRITES
+        drawSprites();
+        // GAME OVER
+        if (player.x < -50 || player.x > 450 || player.y < -50 || player.y > 450) {
+            background("black");
+            textSize(50);
+            fill("green");
+            text("Game Over!", 50, 200);
+        }
+        }
+
+Lesson - 25: Functions
+
+Level - 1
+
+This program creates several functions called drawBackground, drawPlanet, and drawStar, and then calls these functions in order to draw what is inside them. When you run the program, what do you think you will see on the screen?
+
+Read the program and discuss with your partner what will be drawn on the screen and why.
+Record your prediction in the box below.
+Run the program to see what this program does!
+   - Tip: Run the program multiple times
+
+Ans: It creates the background and 2 planets.
+
+Level - 2
+
+Functions let you build your own blocks and decide what code goes inside of them. This program has already created two functions, but only one of them is being called.
+
+Call the drawBalloons function to reveal the full image.
+   - Drag out a myFunction(); block.
+   - Replace "myFunction" with the name of the second function created in the program.
+       - Tip: Just as with all other blocks, spelling and capitalization are important here.
+   - Use the function that is being called as a guide.
+
+The code - drawSky();
+        //1) Call the drawBalloons function to reveal the full image. 
+        drawBalloons();
+        function drawSky(){
+        noStroke();
+        background(rgb(0,200,255));
+        fill("yellow");
+        ellipse(350,50,50,50);
+        }
+
+        function drawBalloons(){
+        stroke("black");
+        line(100,100,140,450);
+        noStroke();
+        fill("red");
+        ellipse(100,100,50,50);
+        
+        stroke("black");
+        line(120,120,140,450);
+        noStroke();
+        fill("orange");
+        ellipse(120,120,50,50);
+        
+        stroke("black");
+        line(140,80,140,450);
+        noStroke();
+        fill("yellow");
+        ellipse(140,80,50,50);
+        
+        stroke("black");
+        line(160,90,140,450);
+        noStroke();
+        fill("red");
+        ellipse(160,90,50,50);
+        }
+
+Level - 3
+
+Placing code inside functions makes it easy to read and make changes to. Good names for functions indicate what your program is doing to a reader. You can call your functions in a different order to quickly make significant changes to how your program runs.
+
+This program has already created 4 functions that draw parts of a scene. Unfortunately it's not coming out right.
+
+Read the 4 functions to understand what each one does.
+Call the functions in an order that draws the scene in the way that looks best to you.
+   - Drag out a myFunction(); block for each of the functions.
+   - Replace the "myFunction" in this block with the name of the functions created in the program.
+   - Rearrange the order that you call these function(); blocks to see the effects of calling them in different orders has on the scene.
+
+The code - //1) Read the 4 functions to understand what each one does.
+        //2) Call the functions in an order that draws the scene in the way that looks best to you.
+        drawBackground();
+        drawTrees();
+        drawClouds();
+        drawFence();
+        function drawBackground(){
+        noStroke();
+        background(rgb(0,200,255));
+        fill("green");
+        rect(0,380,400,20);
+        }
+        function drawTrees(){
+        noStroke();
+        //Draw All Trunks
+        fill(rgb(150,100,0));
+        rect(210,330,30,50);
+        rect(290,330,30,50);
+        rect(360,330,30,50);
+        //Draw All Branches
+        fill("green");
+        regularPolygon(225,280,3,100);
+        regularPolygon(305,280,3,110);
+        regularPolygon(375,290,3,95);
+        }
+        function drawClouds(){
+        noStroke();
+        fill(rgb(255,255,255,100));
+        ellipse(300,200,200,50);
+        ellipse(320,200,200,70);
+        ellipse(340,200,200,50);
+        ellipse(100,100,200,50);
+        ellipse(120,100,200,70);
+        ellipse(140,100,200,50);  
+        }
+        function drawFence(){
+        stroke("white");
+        strokeWeight(5);
+        line(0,360,400,360);
+        line(20,350,20,380);
+        line(50,350,50,380);
+        line(80,350,80,380);
+        line(110,350,110,380);
+        line(140,350,140,380);
+        line(170,350,170,380);
+        line(200,350,200,380);
+        line(230,350,230,380);
+        line(260,350,260,380);
+        line(290,350,290,380);
+        line(320,350,320,380);
+        line(350,350,350,380);
+        line(380,350,380,380);
+        }
+
+Level - 5
+
+Practice using functions and learn more about what makes them so useful.
+
+Choose from the following activities:
+
+a) Calling Functions in the Draw Loop
+Call the function to draw the background in the draw loop.
+
+b) Calling Functions Multiple Times
+Make the flyer reappear on the right side when it goes off the left.
+
+c) Making Changes to Functions
+Change the setFlyer() function so that the flyer appears at a random y with random velocity.
+
+d) Creating Functions to Organize Code
+Add code to the drawNight() function to create a night scene.
+
+I Choose (A)
+
+Level - 7
+
+Time to practice writing functions of your own. This is a very simple game in which coins fall from the sky and the bunny tries to catch them. All you need to do is write the function that sets up the coin.
+
+Read and run the code that already exists to make sure you know how it works.
+Write the code for the setCoin() function to do the following:
+   - Set the coin's velocity to move down.
+   - Set the coin's y position to the top of the screen
+   - Randomize the coin's x position
+You can go look at some of the previous levels if you need help.
+
+The code - var coin = createSprite(200,10);
+        coin.setAnimation("coin_gold_1");
+        setCoin();
+        var bunny = createSprite(200,350);
+        bunny.setAnimation("bunny1_ready_1");
+        var score = 0;
+        function draw() {
+        background("white");
+        if(keyDown("left")){
+            bunny.x = bunny.x - 2;
+        }
+        if(keyDown("right")){
+            bunny.x = bunny.x + 2;
+        }
+        if(coin.y > 400){
+            setCoin();
+        }
+        textSize(20);
+        text("Score: " + score, 10, 10, 100, 100);
+        drawSprites();
+        }
+        function setCoin(){
+        coin.velocityY = 3;
+        if (coin.isTouching(bunny)) {
+        coin.x = randomNumber(20, 380);
+        coin.y = 20;
+        }
+        }
+
+Level - 8
+
+Let's make that score change now, too, to complete the game. You'll need to be able to tell when the bunny is touching the coin and then reset it.
+
+Use an if-statement and the isTouching block to increase the score when the bunny catches the coin.
+Make sure you're calling your function to reset the coin once it's been caught.
+Play the game and randomize the velocity of the coin to a range that you think is fun.
+
+The code - var coin = createSprite(200,10);
+        coin.setAnimation("coin_gold_1");
+        setCoin();
+        var bunny = createSprite(200,350);
+        bunny.setAnimation("bunny1_ready_1");
+        var score = 0;
+        function draw() {
+        background("white");
+        if(keyDown("left")){
+            bunny.x = bunny.x - 2;
+        }
+        if(keyDown("right")){
+            bunny.x = bunny.x + 2;
+        }
+        if(coin.y > 400){
+            setCoin();
+        }
+        textSize(20);
+        text("Score: " + score, 10, 10, 100, 100);
+        drawSprites();
+        }
+        function setCoin(){
+        coin.velocityY = 3;
+        coin.x = randomNumber(20, 380);
+        coin.y = 20;
+        }
+
+Level - 9
+
+Once we've caught 10 coins it's time to celebrate. We should change the background to be something fun.
+
+Use an if-statement and two separate functions to draw our backgrounds.
+Then go write our functions outside your draw loop. We get to decide what a "simple" or "silly" background are. Have fun with it!
+
+The code - var coin = createSprite(200,10);
+        coin.setAnimation("coin_gold_1");
+        setCoin();
+        var bunny = createSprite(200,350);
+        bunny.setAnimation("bunny1_ready_1");
+        var score = 0;
+        function draw() {
+        background("white");
+        if(keyDown("left")){
+            bunny.x = bunny.x - 2;
+        }
+        if(keyDown("right")){
+            bunny.x = bunny.x + 2;
+        }
+        if(coin.y > 400){
+            setCoin();
+        }
+        if (coin.isTouching(bunny)) {
+            myFunction();
+        } else {
+            myFunction1();
+        }
+        textSize(20);
+        text("Score: " + score, 10, 10, 100, 100);
+        drawSprites();
+        }
+        function setCoin(){
+        coin.velocityY = 3;
+        coin.x = randomNumber(20, 380);
+        coin.y = 20;
+        }
+        function myFunction() {
+        background("white");
+        }
+        function myFunction1() {
+        background("black");
+        }
+
+Level - 10
+
+Improve our game and try out these challenges with functions.
+
+Choose from the following activities:
+
+a) Creating Functions to Draw Scenes
+Create two functions to draw two different scenes
+
+b) Paddle Game 1
+Use functions to create and organize this paddle game!
+
+c) Paddle Game 2
+Use functions to finish this paddle game!
+
+d) Function Scene Challenge
+Try to draw a single item in a function and then draw that same item multiple times by just calling the single item function several times in a second function.
+
+e) Another Scene Challenge
+Try to draw several single items in their own functions and then call those functions multiple times to draw them more than once and create a new scene!
+
+I Choose (A)
+
+Lesson - 26: The Game Design Process
+
+Level - 3
+
+Before we get started, you'll want some better animations for each of our sprites.
+
+In the Animation Tab are animations for each of your sprites. Go look at what they are.
+In your code give each sprite its appropriate animation. Use the ones provided for now but later you'll be able to go change them.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("alienWalkRight");
+        var enemy1 = createSprite();
+        enemy1.setAnimation("ladybug");
+        var enemy2 = createSprite();
+        enemy2.setAnimation("ladybug");
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        enemiesTouchCake();
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 4
+
+We'll need to get your enemy sprites to a random position and moving across the screen.
+
+After each enemy sprite is created...
+   - Set its x position to 0.
+   - Set its y position to be a random number between 150 and 250.
+   - Set its x velocity to 2.
+Test your program. Your enemy sprites should now be moving across the bridge.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("alienWalkRight");
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        enemiesTouchCake();
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 5
+
+Now we'll just need to get our character moving left and right and changing its animations.
+
+Inside the movePlayer function...
+   - Use a conditional to detect when the "right" arrow is pressed.
+   - If it is, move the player sprite to the right by 3.
+   - Use another conditional to move the player to the left when the "left" arrow is pressed.
+Test your game. Our character sprite should now move left and right when we press the left and right arrows.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("alienWalkRight");
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        enemiesTouchCake();
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 6
+
+We'll want your player sprite to move up and down as well.
+
+Inside the movePlayer function...
+   - Use a conditional to detect when the "up" arrow is pressed.
+   - If it is, move the player sprite up by 3.
+   - Use another conditional to move the player down when the "down" arrow is pressed.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("alienWalkRight");
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        enemiesTouchCake();
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 7
+
+We can change the animation when the player changes direction.
+
+Inside the Animation Tab copy the animation of our player sprite.
+Flip each frame of the new animation so that the sprite is facing in the opposite direction.
+Rename your new animation.
+Inside the movePlayer function, set the sprite's animation so that the player changes the direction it is facing when the "left" and "right" arrows are pressed.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        enemiesTouchCake();
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 8
+
+If the enemies get all the way across to the cake we should place them back at the left side of the screen and decrease the score.
+To start we'll write code for only one of your enemies.
+
+Inside the enemiesTouchCake function, use a conditional to detect whether enemy1 has touched the cake.
+If it has...
+   - "loop" the enemy back to the left side of the screen
+   - Set its y position to be a random number between 150 and 250.
+   - Use the counter pattern to decrease the score by 2.
+Test our code. One of our ladybugs should now reset when it gets across to the cake, and the score should go down by 2.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+        function enemiesTouchCake(){
+        enemy1.velocityX = -3;
+        enemy2.velocityX = -3;
+        score -= 2;
+        enemy1.y = randomNumber(150, 250);
+        enemy2.y = randomNumber(150, 250);
+        }
+        function movePlayer(){
+        
+        }
+        function displaceEnemies(){
+
+        }
+        function enemiesTouchWater(){
+        
+        }
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 9
+
+Our first enemy sprite should now be resetting when it gets to the cake. Now we'll want the other ladybug to reset as well.
+
+Inside the enemiesTouchCake function you should have written code that resets enemy1.
+
+Copy the entire if-statement you wrote in the last level (Ctrl-C).
+Paste the code inside of the enemiesTouchCake function, just below the last one (Ctrl-V).
+Change the name of the sprite in that code from enemy1 to enemy2.
+Test your code. Now both bugs should reset when they touch the cake.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        player.scale = 0.1;
+
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+
+        function enemiesTouchCake(){
+        enemy1.velocityX = -3;
+        enemy2.velocityX = -3;
+        score -= 2;
+        enemy1.y = randomNumber(150, 250);
+        enemy2.y = randomNumber(150, 250);
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        }
+
+        function movePlayer(){
+        
+        }
+
+        function displaceEnemies(){
+
+        }
+
+        function enemiesTouchWater(){
+        
+        }
+
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 10
+
+Our program now includes code in two places to set the enemies on the left side of the screen at a random y location.
+We can create functions to reset each of our two enemies to remove repetitions from our program.
+This will make your program easier to read, allow we to change it more easily, and allow we to quickly reset our sprites at other points in our program if we need to.
+
+At the bottom of your program create two new functions, setEnemy1 and setEnemy2.
+Inside each of these functions place the code that sets the enemies on the left side of the screen, gives them a random y position, and a velocityX of 2 (the same blocks that you see in the image above).
+Wherever the code for setEnemy1 and setEnemy2 appears in your program replace them with a call to the functions you just created.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        player.scale = 0.1;
+
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+
+        function enemiesTouchCake(){
+        enemy1.velocityX = -3;
+        enemy2.velocityX = -3;
+        score -= 2;
+        enemy1.y = randomNumber(150, 250);
+        enemy2.y = randomNumber(150, 250);
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        }
+
+        function movePlayer(){
+        
+        }
+
+        function displaceEnemies(){
+
+        }
+
+        function enemiesTouchWater(){
+        
+        }
+
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 11
+
+It's time to write code for some more sprite interactions. Our player sprite should displace the enemy sprites.
+
+For this level we'll be writing code inside the displaceEnemies function.
+
+Write code that makes player displace both enemy sprites.
+Test our program to make sure our player is displacing enemies but they keep moving right after the player moves away.
+Hint: We can use sprite.debug to see our sprites' colliders if we need to debug our program.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        player.scale = 0.1;
+
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+
+        function enemiesTouchCake(){
+        enemy1.velocityX = -3;
+        enemy2.velocityX = -3;
+        score -= 2;
+        enemy1.y = randomNumber(150, 250);
+        enemy2.y = randomNumber(150, 250);
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        }
+
+        function movePlayer(){
+        
+        }
+
+        function displaceEnemies(){
+
+        }
+
+        function enemiesTouchWater(){
+        
+        }
+
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 12
+
+The last part of the game that we'll need to write is the code to reset the sprites when they touch the water.
+Luckily you should have already written functions that reset each sprite, so we'll just need a good way to know when either sprite leaves the bridge.
+Start by writing the code for a single enemy and then copy-paste and make small changes to create code for our second enemy.
+
+For this level we'll be writing code inside the enemiesTouchWater function.
+
+Use an if statement to check whether enemy1 is off the top of the bridge by checking whether its y value is below 140. Within your if statement:
+   - use your setEnemy1 function to reset the sprite.
+   - add 1 to the score.
+Use an if statement to check whether enemy1 is off the bottom of the bridge by checking whether its y value is above 260. Within your if statement:
+   - use your setEnemy1 function to reset the sprite.
+   - add 1 to the score.
+Test your program for the first enemy sprite. Make sure the sprite is resetting and the score goes up.
+Once it is working copy and paste the code you wrote to create the same behavior for enemy2. You'll need to change the name of the sprite and the name of the functions you use.
+
+The code - // Variables
+        var score = 0;
+        // Create Sprites
+        var cake = createSprite(350,200);
+        cake.setAnimation("cake");
+
+        var player = createSprite(200,200);
+        player.setAnimation("barnowl_1");
+        player.scale = 0.1;
+
+        var enemy1 = createSprite(0, randomNumber(150, 200));
+        enemy1.setAnimation("ladybug");
+        enemy1.velocityX = 2;
+
+        var enemy2 = createSprite(0, randomNumber(150, 250));
+        enemy2.setAnimation("ladybug");
+        enemy2.velocityX = 2;
+
+        function draw() {
+        // draw the background
+        gameBackground();
+        // update the sprites
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        movePlayer();
+        displaceEnemies();
+        enemiesTouchWater();
+        showScore();
+        if (keyDown("right")) {
+            player.x = player.x + 3;
+        }
+        if (keyDown("left")) {
+            player.x = player.x  - 3;
+        }
+        if (keyDown("up")) {
+            player.y = player.y - 3;
+        }
+        if (keyDown("down")) {
+            player.y = player.y + 3;
+        }
+        drawSprites();
+        }
+
+        // Functions
+        function gameBackground() {
+        noStroke();
+        background(rgb(0,100,255));
+        fill(rgb(100,100,100));
+        rect(0,150,400,100);
+        fill(rgb(80,80,80));
+        rect(0,140,400,10);
+        rect(0,250,400,10);
+        }
+
+        function enemiesTouchCake(){
+        enemy1.velocityX = -3;
+        enemy2.velocityX = -3;
+        score -= 2;
+        enemy1.y = randomNumber(150, 250);
+        enemy2.y = randomNumber(150, 250);
+        if (enemy1.isTouching(cake) || enemy2.isTouching(cake)) {
+            enemiesTouchCake();
+        }
+        }
+
+        function movePlayer(){
+        
+        }
+
+        function displaceEnemies(){
+
+        }
+
+        function enemiesTouchWater(){
+        
+        }
+
+        function showScore() {
+        fill("white");
+        textSize(20);
+        text("Score",20,20,200,100);
+        text(score,20,40,200,100);
+        }
+
+Level - 13
+
+Make It Our Own We just walked through someone else's plan for creating a game, so now it's time to make it our own.
+What additional features or challenges do we want to create?
+
+Choose from the following activities:
+
+a) High Score Background
+Create a new background that shows up when players reaches a good score of your choosing
+
+b) Randomize Enemy Speed
+Randomize the speed of the enemies
+
+c) Change the Visuals
+Change the visuals of the game so that your player, enemies, or cake look different
+
+d) End the Game
+End the game after three enemies have gotten to the cake.
+
+I Choose (A)
+
+Lesson - 27: Using the Game Design Process
+
+Level - 3
+
+The first thing that you will create for your game is the background.
+The sample game had two different backgrounds that were chosen according to the user's score.
+The first background has already been created for we. Look at the background1 function in the code below to see how it works. (Show me where)
+
+In order for the background function to do something, we have to call it inside the draw loop. (Show me where)
+
+There is also an empty function named background2. (Show me where)
+We will need to fill that function with new code to make a different background, then test the code by calling the function inside the draw loop.
+
+Read the code for background1.
+Fill the background2 function with new code for a second background.
+Test our background2 function by calling it inside the draw loop.
+Hint: It's much easier to copy, paste, and make small changes to our code in text mode.
